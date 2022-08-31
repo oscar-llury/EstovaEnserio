@@ -1,162 +1,196 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png"/>
-    <link rel="icon" type="image/png" href="./assets/img/favicon.png"/>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png" />
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
     <title>
-        EstovaEnserio
+      EstovaEnserio
     </title>
     <!--     Fonts and icons     -->
 
     <!-- Nucleo Icons -->
-    <link href="./assets/css/nucleo-icons.css" rel="stylesheet"/>
-    <link href="./assets/css/nucleo-svg.css" rel="stylesheet"/>
+    <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
     <!-- Font Awesome Icons -->
 
     <!-- Material Icons -->
 
     <!-- CSS Files -->
-    <link href="./assets/css/material-kit-pro.css" rel="stylesheet"/>
-    <link href="./assets/css/contenido-digital.css" rel="stylesheet"/>
-</head>
+    <link href="./assets/css/material-kit-pro.css" rel="stylesheet" />
+    <link href="./assets/css/contenido-digital.css" rel="stylesheet" />
+  </head>
 
-<body class="bg-gray-200">
-<!-- Navbar -->
-<div class="position-sticky z-index-sticky top-0">
-    <!-- Navbar Light -->
+  <body class="bg-gray-200">
+    <!-- Navbar -->
+    <div class="position-sticky z-index-sticky top-0">
+      <!-- Navbar Light -->
 
-    <nav
-            class="navbar navbar-expand-lg navbar-light bg-white z-index-3 py-3">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white z-index-3 py-3">
         <div class="container">
-            <a class="navbar-brand" href="./index.html" rel="tooltip"
-               title="EstovaEnserio" data-placement="bottom">
-                EstovaEnserio
-            </a>
-            <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon mt-2">
-                <span class="navbar-toggler-bar bar1"></span>
-                <span class="navbar-toggler-bar bar2"></span>
-                <span class="navbar-toggler-bar bar3"></span>
-              </span>
-            </button>
-            <div
-                    class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0"
-                    id="navigation"
-            >
-                <ul class="navbar-nav navbar-nav-hover ms-auto">
-                    <li class="nav-item mx-2">
-                        <a href="#" class="nav-link">
-                            Enserio
+          <a class="navbar-brand" href="./index.html" rel="tooltip" title="EstovaEnserio" data-placement="bottom">
+            EstovaEnserio
+          </a>
+          <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon mt-2">
+              <span class="navbar-toggler-bar bar1"></span>
+              <span class="navbar-toggler-bar bar2"></span>
+              <span class="navbar-toggler-bar bar3"></span>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
+            <ul class="navbar-nav navbar-nav-hover ms-auto">
+              <li class="nav-item mx-2">
+                <a href="#" class="nav-link">
+                  Enserio
+                </a>
+              </li>
+              <li class="nav-item dropdown dropdown-hover mx-2">
+                <a role="button" class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
+                  Proyectos
+                  <img src=" ./assets/img/down-arrow-dark.svg  " alt="down-arrow" class="arrow ms-2 d-lg-block d-none" />
+                </a>
+                <div class="dropdown-menu dropdown-menu-end dropdown-menu-animation mt-0 mt-lg-3 p-3 rounded-0" aria-labelledby="dropdownMenuDocs">
+                  <div class="d-none d-lg-block">
+                    <ul class="list-group">
+                      <li class="nav-item list-group-item border-0 p-0">
+                        <a class="dropdown-item" href="#">
+                          <span class="p-0">Producciones</span>
                         </a>
-                    </li>
-                    <li class="nav-item dropdown dropdown-hover mx-2">
-                        <a role="button" class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
-                            Proyectos
-                            <img src=" ./assets/img/down-arrow-dark.svg  " alt="down-arrow" class="arrow ms-2 d-lg-block d-none">
+                        <a class="dropdown-item" href="#">
+                          <span class="p-0">Eventos</span>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-end dropdown-menu-animation mt-0 mt-lg-3 p-3 rounded-0" aria-labelledby="dropdownMenuDocs">
-                            <div class="d-none d-lg-block">
-                                <ul class="list-group">
-                                    <li class="nav-item list-group-item border-0 p-0">
-                                        <a class="dropdown-item" href="#">
-                                            <span class="p-0">Producciones</span>
-                                        </a>
-                                        <a class="dropdown-item" href="#">
-                                            <span class="p-0">Eventos</span>
-                                        </a>
-                                        <a class="dropdown-item" href="#">
-                                            <span class="p-0">Contenido digital</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="row d-lg-none">
-                                <div class="col-md-12 g-0">
-                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
-                                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Getting Started</h6>
-                                        <span class="text-sm">All about overview, quick start, license and contents</span>
-                                    </a>
-                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
-                                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Foundation</h6>
-                                        <span class="text-sm">See our colors, icons and typography</span>
-                                    </a>
-                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
-                                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Components</h6>
-                                        <span class="text-sm">Explore our collection of fully designed components</span>
-                                    </a>
-                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
-                                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Plugins</h6>
-                                        <span class="text-sm">Check how you can integrate our plugins</span>
-                                    </a>
-                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
-                                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Utility Classes</h6>
-                                        <span class="text-sm">For those who want flexibility, use our utility classes</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a href="#" class="nav-link">
-                            Contacto
+                        <a class="dropdown-item" href="#">
+                          <span class="p-0">Contenido digital</span>
                         </a>
-                    </li>
-                </ul>
-            </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="row d-lg-none">
+                    <div class="col-md-12 g-0">
+                      <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Getting Started</h6>
+                        <span class="text-sm">All about overview, quick start, license and contents</span>
+                      </a>
+                      <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Foundation</h6>
+                        <span class="text-sm">See our colors, icons and typography</span>
+                      </a>
+                      <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Components</h6>
+                        <span class="text-sm">Explore our collection of fully designed components</span>
+                      </a>
+                      <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Plugins</h6>
+                        <span class="text-sm">Check how you can integrate our plugins</span>
+                      </a>
+                      <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Utility Classes</h6>
+                        <span class="text-sm">For those who want flexibility, use our utility classes</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item mx-2">
+                <a href="#" class="nav-link">
+                  Contacto
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
-    <!-- End Navbar -->
-</div>
-<div class="blur shadow-blur">
-    <!-- -------   START CONTENT 1 - title & description and 6 IMAGES   -------- -->
-    <section class="py-5">
+      </nav>
+      <!-- End Navbar -->
+    </div>
+    <div class="blur shadow-blur">
+      <!-- -------   START CONTENT 1 - title & description and 6 IMAGES   -------- -->
+      <section class="py-5">
         <div class="container-fluid">
-            <div class="grid">
-                <div class="grid-sizer"></div>
-                <!-- row 1 -->
-                <div class="grid-item">
-                    <img src="./img/01-lio_studio.jpg" alt=""/>
-                </div>
-                <div class="grid-item">
-                    <img src="./img/02-ochobajocero.png" alt=""/>
-                </div>
-                <div class="grid-item">
-                    <img src="./img/03-bendita_burgers.png" alt=""/>
-                </div>
-                <div class="grid-item">
-                    <img src="./img/04-arnau_griso.png" alt=""/>
-                </div>
-                <!-- row 2 -->
-                <div class="grid-item">
-                    <img src="./img/05-grupo_lalala.jpg" alt=""/>
-                </div>
-                <div class="grid-item">
-                    <img src="./img/06-alexnader_som.png" alt=""/>
-                </div>
-                <div class="grid-item">
-                    <img src="./img/07-fyvar.png" alt=""/>
-                </div>
-                <div class="grid-item">
-                    <img src="./img/08-sons_of_ibiza.png" alt=""/>
-                </div>
+          <div class="grid">
+            <div class="grid-sizer"></div>
+            <!-- row 1 -->
+            <div class="grid-item">
+              <img src="./img/01-lio_studio.jpg" alt="" />
             </div>
+            <div class="grid-item">
+              <img src="./img/02-ochobajocero.png" alt="" />
+            </div>
+            <div class="grid-item">
+              <img src="./img/03-bendita_burgers.png" alt="" />
+            </div>
+            <div class="grid-item">
+              <img src="./img/04-arnau_griso.png" alt="" />
+            </div>
+
+            <!-- row 2 -->
+            <div class="grid-item">
+              <img src="./img/06-alexnader_som.png" alt="" />
+            </div>
+            <div class="grid-item">
+              <img src="./img/05-grupo_lalala.jpg" alt="" />
+            </div>
+            <div class="grid-item">
+              <img src="./img/09-botran.png" alt="" />
+            </div>
+            <div class="grid-item">
+              <img src="./img/10-cefmx.png" alt="" />
+            </div>
+            <div class="grid-item">
+              <img src="./img/07-fyvar.png" alt="" />
+            </div>
+            <div class="grid-item">
+              <img src="./img/08-sons_of_ibiza.png" alt="" />
+            </div>
+
+            <!-- row 3 -->
+            <div class="grid-item">
+              <img src="./img/14-ifema.png" alt="" />
+            </div>
+            <div class="grid-item">
+              <img src="./img/11-xcape.png" alt="" />
+            </div>
+            <div class="grid-item">
+              <img src="./img/12-gala.png" alt="" />
+            </div>
+
+            <!-- row 4 -->
+            <div class="grid-item">
+              <img src="./img/13-noemi_misma.png" alt="" />
+            </div>
+
+            <div class="grid-item">
+              <img src="./img/15-axa.png" alt="" />
+            </div>
+            <div class="grid-item">
+              <img src="./img/16-jorge_leon.png" alt="" />
+            </div>
+
+            <!-- row 5 -->
+            <div class="grid-item">
+              <img src="./img/17-cuttoo.png" alt="" />
+            </div>
+            <div class="grid-item">
+              <img src="./img/18-col_guatemala.png" alt="" />
+            </div>
+            <div class="grid-item">
+              <img src="./img/19-gastronomia.png" alt="" />
+            </div>
+          </div>
         </div>
-    </section>
-    <!-- -------   END CONTENT 1 - title & description and 6 IMAGES   -------- -->
-</div>
-<footer class="footer pt-5 mt-5">
+      </section>
+      <!-- -------   END CONTENT 1 - title & description and 6 IMAGES   -------- -->
+    </div>
+    <footer class="footer pt-5 mt-5"></footer>
+    <!--   Core JS Files   -->
+    <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
 
-</footer>
-<!--   Core JS Files   -->
-<script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <script src="./node_modules/masonry-layout/dist/masonry.pkgd.min.js" type="text/javascript"></script>
 
-<script src="./node_modules/masonry-layout/dist/masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="./node_modules/imagesloaded/imagesloaded.pkgd.min.js" type="text/javascript"></script>
 
-<script src="./node_modules/imagesloaded/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-
-<script src="./assets/js/contenido-digital.js" type="text/javascript"></script>
-</body>
+    <script src="./assets/js/contenido-digital.js" type="text/javascript"></script>
+  </body>
 </html>
