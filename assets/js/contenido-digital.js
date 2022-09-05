@@ -1,40 +1,44 @@
 // external js: masonry.pkgd.js, imagesloaded.pkgd.js
 
 // init Masonry
-var grid = document.querySelector(".grid");
-
-var msnry = new Masonry(grid, {
+let grid = document.querySelector(".grid");
+let msnry = new Masonry(grid, {
   itemSelector: ".grid-item",
   columnWidth: ".grid-sizer",
   percentPosition: true,
 });
-
 imagesLoaded(grid).on("progress", function () {
   // layout Masonry after each image loads
   msnry.layout();
 });
 
-// Get the modal
-let modal = document.getElementById("myModal");
+// open images at modal
+let modal = document.querySelector("#myModal");
+let imagesModal = document.querySelectorAll("div.img_content.openImg");
+let modalImg = document.querySelector("#imgModal");
+let captionText = document.querySelector("#captionModal");
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-//var img = document.getElementById("myImg");
-let imgs = document.getElementsByClassName("openImg");
-let modalImg = document.getElementById("imgModal");
-let captionText = document.getElementById("captionModal");
-
-for (let i = 0; i < imgs.length; i++) {
-  imgs[i].addEventListener("click", function () {
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
+for (let i = 0; i < imagesModal.length; i++) {
+  imagesModal[i].addEventListener("click", function () {
+    let img_node = getImgNode(this.children);
+    modalImg.src = img_node.src;
+    modalImg.alt = img_node.alt;
+    captionText.innerHTML = img_node.alt;
     modal.style.display = "block";
   });
 }
-
-// Get the <span> element that closes the modal
-let span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function () {
+let modalColse = document.querySelector("#modalColse");
+modalColse.onclick = function () {
   modal.style.display = "none";
 };
+
+//let allImagesText = document.querySelectorAll("div.img_content img");
+//console.dir(allImagesText);
+
+function getImgNode(collection) {
+  for (let i = 0; i < collection.length; i++) {
+    if (collection[i].nodeName.toLowerCase() == "img") {
+      return collection[i];
+    }
+  }
+}
