@@ -18,7 +18,9 @@ body {
 .z-index-modal {
   z-index: 1040;
 }
-
+.dropdown.nav-item .dropdown-menu-animation.show {
+  height: auto;
+}
 /** ---- MASONRY CLASSES ---- */
 .grid {
   background: #ddd;
