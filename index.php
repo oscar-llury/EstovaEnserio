@@ -28,7 +28,7 @@
       <!-- Navbar Light -->
       <nav class="navbar navbar-expand-lg navbar-light bg-white z-index-3 py-3">
         <div class="container">
-          <a class="navbar-brand" href="./index.html" rel="tooltip" title="EstovaEnserio" data-placement="bottom">
+          <a class="navbar-brand" href="./index" rel="tooltip" title="EstovaEnserio" data-placement="bottom">
             EstovaEnserio
           </a>
           <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,13 +54,13 @@
                   <div class="d-none d-lg-block">
                     <ul class="list-group">
                       <li class="nav-item list-group-item border-0 p-0">
-                        <a class="dropdown-item" href="./producciones.html">
+                        <a class="dropdown-item" href="./producciones">
                           <span class="p-0">Producciones</span>
                         </a>
-                        <a class="dropdown-item" href="./eventos.html">
+                        <a class="dropdown-item" href="./eventos">
                           <span class="p-0">Eventos</span>
                         </a>
-                        <a class="dropdown-item" href="./contenido-digital.html">
+                        <a class="dropdown-item" href="./contenido-digital">
                           <span class="p-0">Contenido digital</span>
                         </a>
                       </li>
@@ -68,13 +68,13 @@
                   </div>
                   <div class="row d-lg-none">
                     <div class="col-md-12 g-0">
-                      <a class="dropdown-item" href="./producciones.html">
+                      <a class="dropdown-item" href="./producciones">
                         <span class="p-0">Producciones</span>
                       </a>
-                      <a class="dropdown-item" href="./eventos.html">
+                      <a class="dropdown-item" href="./eventos">
                         <span class="p-0">Eventos</span>
                       </a>
-                      <a class="dropdown-item" href="./contenido-digital.html">
+                      <a class="dropdown-item" href="./contenido-digital">
                         <span class="p-0">Contenido digital</span>
                       </a>
                     </div>
