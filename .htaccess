@@ -1,3 +1,12 @@
+# Default index page
+DirectoryIndex index.php
+
+# Remove php and html file extension
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
 # DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
 PassengerAppRoot "/home/estovaenserio/estovaenserio"
 PassengerBaseURI "/"
@@ -5,6 +14,7 @@ PassengerNodejs "/home/estovaenserio/nodevenv/estovaenserio/16/bin/node"
 PassengerAppType node
 PassengerStartupFile index.html
 # DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+
 # DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
 <IfModule Litespeed>
 </IfModule>

@@ -1,37 +1,16 @@
 {
-  "name": "material-kit-pro",
-  "version": "3.0.3",
-  "description": "Premium UI Kit for Bootstrap 5",
-  "main": "index.html",
-  "directories": {
-    "example": "root"
-  },
+  "name": "estovaenserio",
+  "version": "0.1",
+  "description": "estovaenserio.com",
+  "main": "index.php",
   "scripts": {
     "open-app": "gulp open-app",
     "start": "npm run open-app",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "gulp-watch"
   },
-  "keywords": [
-    "material design system pro",
-    "bootstrap 5",
-    "design system",
-    "creative tim",
-    "html kit",
-    "html css kit",
-    "web kit",
-    "premium",
-    "premium bootstrap kit",
-    "css3 kit",
-    "bootstrap design system",
-    "frontend",
-    "responsive bootstrap kit"
-  ],
-  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
-  "license": "Premium",
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/ct-material-kit-pro/issues"
-  },
+  "keywords": [],
+  "author": "Esto va Enserio (www.estovaenserio.com)",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
@@ -42,7 +21,6 @@
     "gulp-sourcemaps": "^2.6.5",
     "sass": "^1.49.9"
   },
-  "homepage": "https://creative-tim.com/product/material-kit-pro",
   "dependencies": {
     "imagesloaded": "^5.0.0",
     "masonry-layout": "^4.2.2"
