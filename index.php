@@ -26,7 +26,6 @@
     <!-- Navbar -->
     <div class="position-sticky z-index-sticky top-0">
       <!-- Navbar Light -->
-
       <nav class="navbar navbar-expand-lg navbar-light bg-white z-index-3 py-3">
         <div class="container">
           <a class="navbar-brand" href="./index.html" rel="tooltip" title="EstovaEnserio" data-placement="bottom">
@@ -47,9 +46,9 @@
                 </a>
               </li>
               <li class="nav-item dropdown dropdown-hover mx-2">
-                <a role="button" class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
+                <a role="button" class="nav-link d-flex cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
                   Proyectos
-                  <img src=" ./assets/img/down-arrow-dark.svg  " alt="down-arrow" class="arrow ms-2 d-lg-block d-none" />
+                  <img src=" ./assets/img/down-arrow-dark.svg  " alt="down-arrow" class="arrow ms-2 d-lg-block" />
                 </a>
                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-animation mt-0 mt-lg-3 p-3 rounded-0" aria-labelledby="dropdownMenuDocs">
                   <div class="d-none d-lg-block">
@@ -69,25 +68,14 @@
                   </div>
                   <div class="row d-lg-none">
                     <div class="col-md-12 g-0">
-                      <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
-                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Getting Started</h6>
-                        <span class="text-sm">All about overview, quick start, license and contents</span>
+                      <a class="dropdown-item" href="./producciones.html">
+                        <span class="p-0">Producciones</span>
                       </a>
-                      <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
-                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Foundation</h6>
-                        <span class="text-sm">See our colors, icons and typography</span>
+                      <a class="dropdown-item" href="./eventos.html">
+                        <span class="p-0">Eventos</span>
                       </a>
-                      <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
-                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Components</h6>
-                        <span class="text-sm">Explore our collection of fully designed components</span>
-                      </a>
-                      <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
-                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Plugins</h6>
-                        <span class="text-sm">Check how you can integrate our plugins</span>
-                      </a>
-                      <a class="dropdown-item py-2 ps-3 border-radius-md" href="./pages/about-us.html">
-                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Utility Classes</h6>
-                        <span class="text-sm">For those who want flexibility, use our utility classes</span>
+                      <a class="dropdown-item" href="./contenido-digital.html">
+                        <span class="p-0">Contenido digital</span>
                       </a>
                     </div>
                   </div>

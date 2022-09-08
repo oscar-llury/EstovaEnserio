@@ -2,14 +2,20 @@
 
 // init Masonry
 let grid = document.querySelector(".grid");
+
 let msnry = new Masonry(grid, {
   itemSelector: ".grid-item",
   columnWidth: ".grid-sizer",
   percentPosition: true,
+  horizontalOrder: true,
 });
-imagesLoaded(grid).on("progress", function () {
+
+//console.dir(msnry.getItemElements());
+
+imagesLoaded(grid).on("progress", function (instance, image) {
   // layout Masonry after each image loads
-  msnry.layout();
+  image.img.parentElement.classList.add("grid-loaded");
+  //msnry.layout();
 });
 
 // open images at modal
