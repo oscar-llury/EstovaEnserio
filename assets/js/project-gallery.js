@@ -15,7 +15,9 @@ let msnry = new Masonry(grid, {
 imagesLoaded(grid).on("progress", function (instance, image) {
   // layout Masonry after each image loads
   image.img.parentElement.classList.add("grid-loaded");
-  //msnry.layout();
+});
+imagesLoaded(grid).on("done", function (instance) {
+  msnry.layout();
 });
 
 // open images at modal
