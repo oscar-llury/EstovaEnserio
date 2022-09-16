@@ -8,11 +8,11 @@ let msnry = new Masonry(grid, {
   percentPosition: true,
   horizontalOrder: true,
 });
+/*
 imagesLoaded(grid).on("progress", function () {
   // layout Masonry after each image loads
   msnry.layout();
-});
-
+});*/
 imagesLoaded(grid).on("progress", function (instance, image) {
   // layout Masonry after each image loads
   image.img.parentElement.classList.add("grid-loaded");
