@@ -2,23 +2,26 @@
 
 // init Masonry
 let grid = document.querySelector(".grid");
-
 let msnry = new Masonry(grid, {
   itemSelector: ".grid-item",
   columnWidth: ".grid-sizer",
   percentPosition: true,
   horizontalOrder: true,
 });
-
-//console.dir(msnry.getItemElements());
+imagesLoaded(grid).on("progress", function () {
+  // layout Masonry after each image loads
+  msnry.layout();
+});
 
 imagesLoaded(grid).on("progress", function (instance, image) {
   // layout Masonry after each image loads
   image.img.parentElement.classList.add("grid-loaded");
 });
+/*
 imagesLoaded(grid).on("done", function (instance) {
   msnry.layout();
 });
+*/
 
 // open images at modal
 let modal = document.querySelector("#myModal");

@@ -22,7 +22,7 @@ body {
   height: auto;
 }
 /** ---- MASONRY CLASSES ---- */
-.grid {
+.masonry-container {
   background: #ddd;
 }
 /* clear fix */
