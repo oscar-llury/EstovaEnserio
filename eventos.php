@@ -24,7 +24,7 @@
 
   <body class="bg-gray-200">
     <!-- Navbar -->
-    <div class="position-sticky z-index-sticky top-0">
+    <?php include_once('./includes/header.php');?>
       <!-- Navbar Light -->
       <nav class="navbar navbar-expand-lg navbar-light bg-white z-index-3 py-3">
         <div class="container">
