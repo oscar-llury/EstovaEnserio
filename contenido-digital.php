@@ -29,7 +29,7 @@
       <!-- -------   START CONTENT 1 - title & description and 6 IMAGES   -------- -->
       <section class="py-5">
         <div class="container-fluid">
-          <div class='masonry-container'>
+          <div class='main-container'>
             <div class="grid">
               <div class="grid-sizer"></div>
               <!-- row 1 -->

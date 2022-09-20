@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+/* force scrollbar */
+html {
+  overflow-y: scroll;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/** GENERAL CLASSES */
+.z-index-sticky {
+  z-index: 1020;
+}
+.z-index-modal {
+  z-index: 1040;
+}
+.dropdown.nav-item .dropdown-menu-animation.show {
+  height: auto;
+}
+.main-container {
+  background: #f8f8f8;
+}
+/** ---- SUBPAGES ---- */
+.img-header {
+  h1 {
+    left: 50px;
+  }
+}
+.col-info {
+  .line-after:after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #c7c7c9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
