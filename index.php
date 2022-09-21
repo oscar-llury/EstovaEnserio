@@ -20,14 +20,13 @@
 
   <!-- CSS Files -->
   <link href="./assets/css/enserio-styles.css" rel="stylesheet" />
-  <link href="./assets/css/contenido-digital.css" rel="stylesheet" />
 </head>
 
 <body class="bg-gray-200">
   <!-- Navbar -->
   <div class="position-sticky z-index-sticky top-0">
     <!-- Navbar Light -->
-    <?php include_once('/includes/header.php'); ?>
+    <?php include_once('./includes/header.php'); ?>
     <!-- End Navbar -->
   </div>
   <footer class="footer pt-5 mt-5"></footer>

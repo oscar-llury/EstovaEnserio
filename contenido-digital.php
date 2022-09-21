@@ -25,7 +25,7 @@
 
 <body class="bg-gray-200">
   <!-- Navbar -->
-  <?php include_once('/includes/header.php'); ?>
+  <?php include_once('./includes/header.php'); ?>
   <div class="blur shadow-blur">
     <!-- -------   START CONTENT 1 - title & description and 6 IMAGES   -------- -->
     <section class="py-5">
