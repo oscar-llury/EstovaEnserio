@@ -7,10 +7,6 @@ html {
   overflow-y: scroll;
 }
 
-body {
-  font-family: sans-serif;
-}
-
 /** GENERAL CLASSES */
 .z-index-sticky {
   z-index: 1020;
@@ -30,7 +26,8 @@ body {
     left: 50px;
   }
 }
-.col-info {
+
+.col-info-proyecto {
   .line-after:after {
     content: "";
     display: block;
@@ -39,5 +36,15 @@ body {
     background-color: #c7c7c9;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  .title-section {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0%;
+  }
+  .table-info-proyecto {
+    td:nth-child(1) {
+      padding-right: 10px;
+    }
   }
 }

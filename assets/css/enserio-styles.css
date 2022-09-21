@@ -1,4 +1,112 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Argentum Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Argentum Sans"), url("../tipografia/ArgentumSans-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Argentum Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Argentum Sans"), url("../tipografia/ArgentumSans-Italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Argentum Sans";
+  font-style: normal;
+  font-weight: 250;
+  src: local("Argentum Sans"), url("../tipografia/ArgentumSans-Thin.woff") format("woff");
+}
+@font-face {
+  font-family: "Argentum Sans";
+  font-style: italic;
+  font-weight: 250;
+  src: local("Argentum Sans"), url("../tipografia/ArgentumSans-ThinItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Argentum Sans";
+  font-style: normal;
+  font-weight: 275;
+  src: local("Argentum Sans"), url("../tipografia/ArgentumSans-ExtraLight.woff") format("woff");
+}
+@font-face {
+  font-family: "Argentum Sans";
+  font-style: italic;
+  font-weight: 275;
+  src: local("Argentum Sans"), url("../tipografia/ArgentumSans-ExtraLightItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Argentum Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Argentum Sans"), url("../tipografia/ArgentumSans-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "Argentum Sans";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Argentum Sans"), url("../tipografia/ArgentumSans-LightItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Argentum Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Argentum Sans"), url("../tipografia/ArgentumSans-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Argentum Sans";
+  font-style: italic;
+  font-weight: 500;
+  src: local("Argentum Sans"), url("../tipografia/ArgentumSans-MediumItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Argentum Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Argentum Sans"), url("../tipografia/ArgentumSans-SemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Argentum Sans";
+  font-style: italic;
+  font-weight: 600;
+  src: local("Argentum Sans"), url("../tipografia/ArgentumSans-SemiBoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Argentum Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Argentum Sans"), url("../tipografia/ArgentumSans-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Argentum Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Argentum Sans"), url("../tipografia/ArgentumSans-BoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Argentum Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Argentum Sans"), url("../tipografia/ArgentumSans-ExtraBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Argentum Sans";
+  font-style: italic;
+  font-weight: 800;
+  src: local("Argentum Sans"), url("../tipografia/ArgentumSans-ExtraBoldItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Argentum Sans";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Argentum Sans"), url("../tipografia/ArgentumSans-Black.woff") format("woff");
+}
+@font-face {
+  font-family: "Argentum Sans";
+  font-style: italic;
+  font-weight: 900;
+  src: local("Argentum Sans"), url("../tipografia/ArgentumSans-BlackItalic.woff") format("woff");
+}
 /*!
  * Bootstrap v5.2.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -50,7 +158,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 123, 128, 154;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
+  --bs-font-sans-serif: "Argentum Sans", Helvetica, Arial, sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -7219,14 +7327,12 @@ textarea.form-control-lg {
 }
 
 .sticky-top {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1020;
 }
 
 .sticky-bottom {
-  position: -webkit-sticky;
   position: sticky;
   bottom: 0;
   z-index: 1020;
@@ -7234,13 +7340,11 @@ textarea.form-control-lg {
 
 @media (min-width: 576px) {
   .sticky-sm-top {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
   }
   .sticky-sm-bottom {
-    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     z-index: 1020;
@@ -7248,13 +7352,11 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) {
   .sticky-md-top {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
   }
   .sticky-md-bottom {
-    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     z-index: 1020;
@@ -7262,13 +7364,11 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .sticky-lg-top {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
   }
   .sticky-lg-bottom {
-    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     z-index: 1020;
@@ -7276,13 +7376,11 @@ textarea.form-control-lg {
 }
 @media (min-width: 1200px) {
   .sticky-xl-top {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
   }
   .sticky-xl-bottom {
-    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     z-index: 1020;
@@ -7290,13 +7388,11 @@ textarea.form-control-lg {
 }
 @media (min-width: 1400px) {
   .sticky-xxl-top {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
   }
   .sticky-xxl-bottom {
-    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     z-index: 1020;
@@ -7527,7 +7623,6 @@ textarea.form-control-lg {
 }
 
 .position-sticky {
-  position: -webkit-sticky !important;
   position: sticky !important;
 }
 
@@ -17837,7 +17932,7 @@ textarea.form-control-lg {
   padding: 1.5rem;
 }
 .card .card-body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Argentum Sans", Helvetica, Arial, sans-serif;
   padding: 1.5rem;
 }
 .card.card-plain {
@@ -21736,7 +21831,7 @@ h1, .h1,
 h2, .h2,
 h3, .h3 {
   font-weight: 600;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Argentum Sans", sans-serif;
 }
 
 h4, .h4,
@@ -21799,7 +21894,7 @@ p {
 }
 
 .text-sans-serif {
-  font-family: "Roboto", Helvetica, Arial, sans-serif !important;
+  font-family: "Argentum Sans", Helvetica, Arial, sans-serif !important;
 }
 
 .text-monospace {
@@ -26774,7 +26869,6 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 .fc .fc-scrollgrid-section-sticky > * {
   background: #fff;
   background: var(--fc-page-bg-color, #fff);
-  position: -webkit-sticky;
   position: sticky;
   z-index: 2; /* TODO: var */
   /* TODO: box-shadow when sticking */
@@ -26795,7 +26889,6 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 }
 
 .fc-sticky { /* no .fc wrap because used as child of body */
-  position: -webkit-sticky;
   position: sticky;
 }
 
@@ -27818,7 +27911,6 @@ A VERTICAL event
 }
 
 .fc .fc-list-sticky .fc-list-day > * { /* the cells */
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   background: #fff;
@@ -33323,10 +33415,6 @@ html {
   overflow-y: scroll;
 }
 
-body {
-  font-family: sans-serif;
-}
-
 /** GENERAL CLASSES */
 .z-index-sticky {
   z-index: 1020;
@@ -33349,7 +33437,7 @@ body {
   left: 50px;
 }
 
-.col-info .line-after:after {
+.col-info-proyecto .line-after:after {
   content: "";
   display: block;
   width: 25px;
@@ -33358,4 +33446,12 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/*# sourceMappingURL=material-kit-pro.css.map */
+.col-info-proyecto .title-section {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0%;
+}
+.col-info-proyecto .table-info-proyecto td:nth-child(1) {
+  padding-right: 10px;
+}
+/*# sourceMappingURL=enserio-styles.css.map */
