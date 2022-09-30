@@ -35,11 +35,11 @@
                         );
                         $source_url = 'http' . ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') ? 's' : '') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                         if (array_key_exists($code, $codes) && is_numeric($code)) {
-                            echo `<h1 class="display-1 text-bolder text-white">Error $code</h1>`;
-                            echo `<h2 class="text-white">$codes[$code]</h2>`;
+                            die("<h1 class='display-1 text-bolder text-white'>Error $code</h1>
+                            <h2 class='text-white'>{$codes[$code]}</h2>");
                             //die("Error $code: {$codes[$code]}");
                         } else {
-                            echo '<h1 class="display-1 text-bolder text-white">Error desconocido</h1>';
+                            die('<h1 class="display-1 text-bolder text-white">Error desconocido</h1>');
                             //die('Unknown error');
                         }
                         ?>
