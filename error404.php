@@ -36,13 +36,18 @@
                         $source_url = 'http' . ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') ? 's' : '') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                         if (array_key_exists($code, $codes) && is_numeric($code)) {
                             die("Error $code: {$codes[$code]}");
+
+                            echo `<h1 class="display-1 text-bolder text-white">Error $code</h1>`;
+                            echo `<h2 class="text-white">$codes[$code]</h2>`;
                         } else {
                             die('Unknown error');
+                        ?>
+                            <h1 class="display-1 text-bolder text-white">Error desconocido</h1>
+                        <?php
                         }
                         ?>
-                        <h1 class="display-1 text-bolder text-white">Error 404</h1>
-                        <h2 class="text-white">Página no encontrada</h2>
-                        <p class="lead text-white">La página que buscas no existe. Puedes ver nuestros trabajos en la pestaña de proyectos.</p>
+
+
                     </div>
                 </div>
             </div>
