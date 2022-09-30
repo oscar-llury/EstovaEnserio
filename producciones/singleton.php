@@ -25,11 +25,11 @@
 <body class="bg-gray-200">
   <!-- Navbar -->
   <?php include_once('../includes/header.php'); ?>
-  <div class="blur shadow-blur">
+  <div class="blur shadow-blur pagina-proyecto">
     <!-- -------   START CONTENT 1 - title & description and 6 IMAGES   -------- -->
     <div class="container-fluid">
       <div class="position-relative img-header d-flex align-items-center">
-        <h1 class="position-absolute">Lio Studio</h1>
+        <h1 class="position-absolute main-title">Singleton</h1>
         <img src="../img/background-image-1.jpg" alt="" class="w-100" />
       </div>
       <div class="py-5 main-container">
@@ -43,6 +43,10 @@
               <table class="table-info-proyecto">
                 <tbody>
                   <tr>
+                    <td>Etiquetas:</td>
+                    <td>Rodaje, Gastronomía</td>
+                  </tr>
+                  <tr>
                     <td>Cliente:</td>
                     <td>Lio Studio</td>
                   </tr>
@@ -50,10 +54,7 @@
                     <td>Categoría:</td>
                     <td>Contenido digital</td>
                   </tr>
-                  <tr>
-                    <td>Fecha:</td>
-                    <td>12/01/2022</td>
-                  </tr>
+
                 </tbody>
               </table>
               <span class="line-after"></span>
@@ -74,7 +75,7 @@
               </div>
             </div>
             <div class="col-8">
-              <img src="../img/background-image-1.jpg" alt="" class="w-100" />
+              <img src="../img/producciones/01-singleton.jpg" alt="" class="w-100" />
             </div>
           </div>
         </div>
