@@ -37,10 +37,10 @@
                         if (array_key_exists($code, $codes) && is_numeric($code)) {
                             echo `<h1 class="display-1 text-bolder text-white">Error $code</h1>`;
                             echo `<h2 class="text-white">$codes[$code]</h2>`;
-                            die("Error $code: {$codes[$code]}");
+                            //die("Error $code: {$codes[$code]}");
                         } else {
                             echo '<h1 class="display-1 text-bolder text-white">Error desconocido</h1>';
-                            die('Unknown error');
+                            //die('Unknown error');
                         }
                         ?>
                     </div>
