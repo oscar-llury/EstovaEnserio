@@ -1,10 +1,14 @@
 # Default index page
 DirectoryIndex index.php
 
+ErrorDocument 403 /error404.php
+ErrorDocument 404 /error404.php
+ErrorDocument 500 /error404.php
+
 # Remove php and html file extension
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
 <If "%{HTTP_HOST} != 'localhost'">
     # prod directives
@@ -21,3 +25,4 @@ RewriteRule ^([^\.]+)$ $1.php [NC,L]
     </IfModule>
     # DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END
 </If>
+
