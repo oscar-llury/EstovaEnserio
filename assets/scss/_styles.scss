@@ -6,7 +6,10 @@
 html {
   overflow-y: scroll;
 }
-
+body {
+  --logo-header-height: 75px;
+  --offset-top: 1.5rem;
+}
 /** GENERAL CLASSES */
 .z-index-sticky {
   z-index: 1020;
@@ -20,31 +23,49 @@ html {
 .main-container {
   background: #f8f8f8;
 }
-/** ---- SUBPAGES ---- */
-.img-header {
-  h1 {
-    left: 50px;
-  }
+.dropdown .dropdown-menu.dropdown-menu-end:before {
+  display: none !important;
 }
 
-.col-info-proyecto {
-  .line-after:after {
-    content: "";
-    display: block;
-    width: 25px;
-    height: 2px;
-    background-color: #c7c7c9;
-    margin-top: 20px;
-    margin-bottom: 20px;
+/** ---- SUBPAGES ---- */
+.header.navbar {
+  .logo-header {
+    height: var(--logo-header-height);
   }
-  .title-section {
-    font-size: 1.5em;
-    font-weight: 600;
-    margin: 0%;
+  @media (max-width: 992px) {
+    #navigation.navbar-collapse {
+      background-color: $gray-200;
+    }
   }
-  .table-info-proyecto {
-    td:nth-child(1) {
-      padding-right: 10px;
+}
+.pagina-listado-proyectos {
+  padding-top: calc(var(--logo-header-height) + var(--offset-top));
+}
+.pagina-proyecto {
+  .img-header {
+    .main-title {
+      left: 50px;
+    }
+  }
+  .col-info-proyecto {
+    .line-after:after {
+      content: "";
+      display: block;
+      width: 25px;
+      height: 2px;
+      background-color: #c7c7c9;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .title-section {
+      font-size: 1.5em;
+      font-weight: 600;
+      margin: 0%;
+    }
+    .table-info-proyecto {
+      td:nth-child(1) {
+        padding-right: 10px;
+      }
     }
   }
 }

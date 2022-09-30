@@ -33415,6 +33415,11 @@ html {
   overflow-y: scroll;
 }
 
+body {
+  --logo-header-height: 75px;
+  --offset-top: 1.5rem;
+}
+
 /** GENERAL CLASSES */
 .z-index-sticky {
   z-index: 1020;
@@ -33432,12 +33437,28 @@ html {
   background: #f8f8f8;
 }
 
-/** ---- SUBPAGES ---- */
-.img-header h1, .img-header .h1 {
-  left: 50px;
+.dropdown .dropdown-menu.dropdown-menu-end:before {
+  display: none !important;
 }
 
-.col-info-proyecto .line-after:after {
+/** ---- SUBPAGES ---- */
+.header.navbar .logo-header {
+  height: var(--logo-header-height);
+}
+@media (max-width: 992px) {
+  .header.navbar #navigation.navbar-collapse {
+    background-color: #f0f2f5;
+  }
+}
+
+.pagina-listado-proyectos {
+  padding-top: calc(var(--logo-header-height) + var(--offset-top));
+}
+
+.pagina-proyecto .img-header .main-title {
+  left: 50px;
+}
+.pagina-proyecto .col-info-proyecto .line-after:after {
   content: "";
   display: block;
   width: 25px;
@@ -33446,12 +33467,12 @@ html {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.col-info-proyecto .title-section {
+.pagina-proyecto .col-info-proyecto .title-section {
   font-size: 1.5em;
   font-weight: 600;
   margin: 0%;
 }
-.col-info-proyecto .table-info-proyecto td:nth-child(1) {
+.pagina-proyecto .col-info-proyecto .table-info-proyecto td:nth-child(1) {
   padding-right: 10px;
 }
 /*# sourceMappingURL=enserio-styles.css.map */
