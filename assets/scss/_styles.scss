@@ -21,13 +21,13 @@ body {
   height: auto;
 }
 .main-container {
-  background: #f8f8f8;
+  background-color: $gray-200;
 }
 .dropdown .dropdown-menu.dropdown-menu-end:before {
   display: none !important;
 }
 
-/** ---- SUBPAGES ---- */
+/** ---- HEADER ---- */
 .header.navbar {
   .logo-header {
     height: var(--logo-header-height);
@@ -38,9 +38,13 @@ body {
     }
   }
 }
+
+/** ---- LISTADO PROYECTOS ---- */
 .pagina-listado-proyectos {
   padding-top: calc(var(--logo-header-height) + var(--offset-top));
 }
+
+/** ---- PAGINA PROYECTO ---- */
 .pagina-proyecto {
   .img-header {
     .main-title {
