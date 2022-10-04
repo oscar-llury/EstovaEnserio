@@ -919,7 +919,7 @@ $input-transition: 0.2s ease !default;
 $input-background: no-repeat bottom, 50% calc(100% - 1px);
 $input-background-size: 0 100%, 100% 100%;
 $input-background-size-focus: 100% 100%, 100% 100%;
-$input-background-image: linear-gradient(0deg, $primary 2px, rgba(156, 39, 176, 0) 0), linear-gradient(0deg, #d2d2d2 1px, hsla(0, 0%, 82%, 0) 0);
+$input-background-image: linear-gradient(0deg, $primary 2px, rgba(156, 39, 176, 0) 0), linear-gradient(0deg, #d2d2d2 2px, hsla(0, 0%, 82%, 0) 0);
 $input-background-image-valid: linear-gradient(0deg, $success 2px, rgba(156, 39, 176, 0) 0), linear-gradient(0deg, #d2d2d2 1px, hsla(0, 0%, 82%, 0) 0);
 $input-background-image-invalid: linear-gradient(0deg, $danger 2px, rgba(156, 39, 176, 0) 0), linear-gradient(0deg, #d2d2d2 1px, hsla(0, 0%, 82%, 0) 0);
 $input-background-image-disabled: linear-gradient(0deg, $primary 2px, rgba(156, 39, 176, 0) 0), linear-gradient(0deg, $gray-200 1px, hsla(0, 0%, 82%, 0) 0);

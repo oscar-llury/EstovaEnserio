@@ -38,11 +38,11 @@ body {
     }
   }
 }
-
-/** ---- LISTADO PROYECTOS ---- */
-.pagina-listado-proyectos {
+.enserio-page {
   padding-top: calc(var(--logo-header-height) + var(--offset-top));
 }
+
+/** ---- LISTADO PROYECTOS ---- */
 
 /** ---- PAGINA PROYECTO ---- */
 .pagina-proyecto {
@@ -71,5 +71,16 @@ body {
         padding-right: 10px;
       }
     }
+  }
+}
+
+/** ---- CONTACTO ---- */
+.pagina-contacto {
+  .input-group.input-group-dynamic .form-control,
+  .input-group.input-group-static .form-control {
+    transition: 0.2s ease;
+  }
+  img {
+    object-fit: cover;
   }
 }
