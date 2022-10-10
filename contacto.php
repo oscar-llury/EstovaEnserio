@@ -28,54 +28,56 @@
         <section>
             <div class="min-vh-100">
                 <div class="container">
-                    <div class="row flex-nowrap">
-                        <div class="col-12 col-md-4 col-lg-5 col-xl-6 position-relative">
-                            <div class="position-absolute h-100 w-150">
-                                <img class='w-100 h-100' src='https://images.unsplash.com/photo-1538681105587-85640961bf8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80' />
-                            </div>
+                    <div class="position-relative">
+                        <div class="position-absolute w-75 h-100 overflow-hidden">
+                            <img class='w-100 h-100' src='https://images.unsplash.com/photo-1538681105587-85640961bf8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80' />
                         </div>
-                        <div class="col-10 col-md-8 col-lg-7 col-xl-6 ms-md-n5">
-                            <div class="card bg-body shadow-lg my-5">
-                                <div class="card-header p-0 mx-3 my-3 z-index-2 bg-transparent">
-                                    <div class="bg-gradient-primary shadow-primary border-radius-lg p-3">
-                                        <h1 class="text-white text-primary mb-0 fs-4">CONTACTA CON NOSOTROS</h1>
-                                    </div>
-                                </div>
-                                <div class="card-body">
-                                    <form id="contact-form" method="post" autocomplete="off">
-                                        <div class="p-0 my-3">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="input-group input-group-static mb-4">
-                                                        <label class="form-text" for='user'>Nombre completo</label>
-                                                        <input type="text" class="form-control" name='user' id="user" aria-label="user">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="input-group input-group-static mb-4">
-                                                        <label class="form-text" for='email'>Email</label>
-                                                        <input type="email" class="form-control" name="email" id="email" aria-label="Email">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group mb-0 mt-md-0 mt-4">
-                                                <div class="input-group input-group-static mb-4">
-                                                    <label class="form-text" for='message'>Mensaje</label>
-                                                    <textarea class="form-control" name="message" id="message" rows="4"></textarea>
-                                                </div>
-                                            </div>
-                                            <div class="form-check">
-                                                <input class="me-2" type="checkbox" value="" id="fcustomCheck1" checked="">
-                                                <label class="custom-control-label" for="customCheck1">Acepto el tratamiento de datos.</label>
-                                                <p>La información proporcionada será tratada por Enserio SL con la finalidad de establecer contacto, enviar información y promociones y con la legitimación por parte del cliente a través de su aceptación.</p>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12 text-center">
-                                                    <button type="submit" class="btn bg-gradient-primary mt-3 mb-0 btn-primary px-4">Enviar</button>
-                                                </div>
-                                            </div>
+                        <div class="row justify-content-end">
+                            <div class="col-10 col-sm-10 col-md-9 col-lg-7 col-xl-6 ms-md-n5 ms-sm-n9">
+                                <div class="card bg-body shadow-lg my-5">
+                                    <div class="card-header p-0 mx-3 my-3 z-index-2 bg-transparent">
+                                        <div class="bg-primary shadow-primary border-radius-lg p-3">
+                                            <h1 class="text-white text-primary mb-0 fs-4">CONTACTA CON NOSOTROS</h1>
                                         </div>
-                                    </form>
+                                    </div>
+                                    <div class="card-body">
+                                        <form id="contact-form" method="post" autocomplete="off">
+                                            <div class="p-0 my-3">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="input-group input-group-static mb-4">
+                                                            <label class="form-text" for='nombre'>Nombre completo</label>
+                                                            <input type="text" class="form-control" name='nombre' id="nombre" aria-label="nombre" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="input-group input-group-static mb-4">
+                                                            <label class="form-text" for='email'>Email</label>
+                                                            <input type="email" class="form-control" name="email" id="email" aria-label="email" required>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group mb-0 mt-md-0 mt-4">
+                                                    <div class="input-group input-group-static mb-4">
+                                                        <label class="form-text" for='mensaje'>Mensaje</label>
+                                                        <textarea class="form-control" name="mensaje" id="mensaje" rows="4" required></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="form-check">
+                                                    <div class="d-flex align-items-center">
+                                                        <input class="me-2" type="checkbox" value="1" name="privacidad" id="privacidad" required>
+                                                        <label class="custom-control-label" for="privacidad">Acepto el tratamiento de datos.</label>
+                                                    </div>
+                                                    <p class="fs-085">La información proporcionada será tratada por Enserio SL con la finalidad de establecer contacto, enviar información y promociones con la legitimación por parte del cliente a través de su aceptación.</p>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12 text-center">
+                                                        <button type="submit" class="btn bg-primary mt-3 mb-0 btn-primary px-4">Enviar</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -89,6 +91,8 @@
     <!-- Footer -->
     <?php include_once('./includes/footer.php'); ?>
 
+    <!--   JS Files   -->
+    <script src="./assets/js/contact.js" type="text/javascript"></script>
 </body>
 
 </html>

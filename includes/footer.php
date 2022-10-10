@@ -1,5 +1,9 @@
-<footer class="footer pt-5 mt-5 bg-gray-400">
-
+<footer class="footer pt-4 pb-2">
+    <div class=" text-center">
+        <p>&copy; Enserio <script>
+                document.write(new Date().getFullYear());
+            </script>. Todos los derechos reservados.</p>
+    </div>
 </footer>
 
 <!--   Core JS Files   -->

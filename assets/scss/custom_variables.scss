@@ -6,14 +6,15 @@ $enable-shadows: true;
 $body-bg: rgb(240, 240, 240);
 $text-color: rgb(20, 20, 20);
 
-$primary: #177abd;
+$primary: #345c6e;
 $primary-light: #66baf2;
 $primary-dark: #177abd; //#0d4970;
 
-$primary-gradient: #177abd;
-$primary-gradient-state: #66baf2;
+$primary-gradient: $primary;
+$primary-gradient-state: $primary-dark;
 
-$secondary: #de0dd8;
+$secondary: #d09729;
+$tertiary: #494949;
 $success: #005e14;
 $success-light: #5aaf49;
 $info: #f6d0b1;

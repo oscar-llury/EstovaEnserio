@@ -1,5 +1,5 @@
-<header class="header position-sticky z-index-sticky top-0">
-    <div class="header navbar navbar-expand-lg position-absolute shadow-none w-100 z-index-3">
+<header class="header position-sticky z-index-sticky top-0 blur">
+    <div class="header navbar navbar-expand-lg shadow-none w-100 z-index-3">
         <div class="container">
             <a class="navbar-brand p-0" href="/" rel="tooltip" title="EstovaEnserio" data-placement="bottom">
                 <img class='logo-header' src="/img/logo/ENSERIO.png" alt="" />

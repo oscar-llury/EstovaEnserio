@@ -19,7 +19,7 @@
 <body>
   <!-- Navbar -->
   <?php include_once('./includes/header.php'); ?>
-  <div class="blur shadow-blur pagina-listado-proyectos min-vh-80">
+  <div class="blur shadow-blur pagina-listado-proyectos min-vh-80 enserio-page">
     <!-- -------   START CONTENT 1 -------- -->
     <!-- -------   END CONTENT  -------- -->
   </div>

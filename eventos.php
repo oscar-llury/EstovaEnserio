@@ -19,7 +19,7 @@
 <body>
   <!-- Navbar -->
   <?php include_once('./includes/header.php'); ?>
-  <div class="blur shadow-blur pagina-listado-proyectos">
+  <div class="blur shadow-blur pagina-listado-proyectos enserio-page">
     <!-- -------   START CONTENT 1 -------- -->
     <section class="container-fluid">
       <div class='main-container bg-gray-200'>
