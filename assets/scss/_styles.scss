@@ -10,7 +10,11 @@ body {
   --logo-header-height: 75px;
   --offset-top: -3rem;
 }
+
 /** GENERAL CLASSES */
+.vh-min-100 {
+  min-height: calc(100vh - (var(--logo-header-height) - var(--offset-top)));
+}
 .z-index-sticky {
   z-index: 1020;
 }
@@ -86,5 +90,6 @@ body {
   }
   img {
     object-fit: cover;
+    object-position: left;
   }
 }

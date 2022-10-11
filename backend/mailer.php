@@ -7,7 +7,6 @@ use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader
 require '../vendor/autoload.php';
-//require '/vendor/autoload.php';
 
 //recogida de valores
 $nombre = trim(isset($_POST['nombre']) ? $_POST['nombre'] : "");
@@ -37,18 +36,19 @@ if ($nombre && $email && $mensaje && $privacidad) {
         $mail->Port = 587; //465                         //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
         //Recipients
-        $mail->setFrom('noreply@estovaenserio.com', 'Enserio');
-        $mail->addAddress('info@fliptheshot.com');
+        $mail->setFrom('noreply@estovaenserio.com', 'Esto va Enserio');
+        $mail->addAddress('info@estovaenserio.com');
+        $mail->addBCC('oscar@estovaenserio.com');
         $mail->addReplyTo($email, $nombre);;
 
         //Content
         $mail->isHTML(true);
-        $mail->Subject = 'Formulario de contacto';
+        $mail->Subject = 'Formulario de contacto - Esto va Enserio';
 
-        $html = '<strong>Nuevo formulario de contacto web</strong>' . '<br>' .
+        $html = '<strong>Nuevo formulario de contacto web Esto va Enserio</strong>' . '<br>' .
             'Nombre completo: ' . $nombre . '<br>' .
             'Email: ' . $email . '<br>';
-        $altBody = 'Nuevo formulario de contacto web' .
+        $altBody = 'Nuevo formulario de contacto web Esto va Enserio' .
             'Nombre completo: ' . $nombre . '<br>' .
             'Email: ' . $email;
 

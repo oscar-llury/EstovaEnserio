@@ -26,11 +26,11 @@
     <div class="blur shadow-blur pagina-contacto enserio-page min-vh-80">
         <!-- -------   START CONTENT 1 -------- -->
         <section>
-            <div class="min-vh-100">
+            <div class="vh-min-100">
                 <div class="container">
                     <div class="position-relative">
                         <div class="position-absolute w-75 h-100 overflow-hidden">
-                            <img class='w-100 h-100' src='https://images.unsplash.com/photo-1538681105587-85640961bf8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80' />
+                            <img class='w-100 h-100' src='./img/contacto-1.png' />
                         </div>
                         <div class="row justify-content-end">
                             <div class="col-10 col-sm-10 col-md-9 col-lg-7 col-xl-6 ms-md-n5 ms-sm-n9">

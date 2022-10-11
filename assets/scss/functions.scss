@@ -9,7 +9,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // extends sizes classes
 $custom-sizes: (
-  "085": $font-size-base * 0.85,
+  "0875": $font-size-base * 0.875,
   "075": $font-size-base * 0.75,
   "05": $font-size-base * 0.5,
   "025": $font-size-base * 0.25,
