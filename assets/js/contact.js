@@ -27,6 +27,7 @@ async function sendContactForm(formData) {
     .then((res) => {
       console.log(res);
       alert(res.msg);
+      return res.status;
       /*
       if (res.status) {
         

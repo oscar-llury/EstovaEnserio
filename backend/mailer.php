@@ -32,13 +32,13 @@ if ($nombre && $email && $mensaje && $privacidad) {
         $mail->Host = 'mail.estovaenserio.com';           //Set the SMTP server to send through
         $mail->SMTPAuth = true;                             //Enable SMTP authentication
         $mail->Username = 'oscar@estovaenserio.com';          //SMTP username
-        $mail->Password = 'fts-enserio?-oscar2%';                    //SMTP password
+        $mail->Password = 'FTS-N0MAD-Enserio?-oscar2%';                    //SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;   //Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
-        $mail->Port = 587; //465                         //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+        $mail->Port = 465; //465                         //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
         //Recipients
-        $mail->setFrom('noreply@estovaenserio.com', 'Flip The Shot');
-        $mail->addAddress('oscar@estovaenserio.com');
+        $mail->setFrom('noreply@estovaenserio.com', 'Enserio');
+        $mail->addAddress('info@fliptheshot.com');
         $mail->addReplyTo($email, $nombre);;
 
         //Content
