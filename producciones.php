@@ -19,10 +19,10 @@
 <body>
   <!-- Navbar -->
   <?php include_once('./includes/header.php'); ?>
-  <div class="blur shadow-blur pagina-listado-proyectos">
+  <div class="blur shadow-blur pagina-listado-proyectos enserio-page">
     <!-- -------   START CONTENT 1 -------- -->
     <section class="container-fluid">
-      <div class='main-container bg-gray-200'>
+      <div class='main-container'>
         <div class="grid">
           <div class="grid-sizer"></div>
           <!-- row 1 -->

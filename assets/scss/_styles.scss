@@ -8,9 +8,17 @@ html {
 }
 body {
   --logo-header-height: 75px;
-  --offset-top: 1.5rem;
+  --offset-top: -3rem;
+  --header-height: 91px;
+  --foter-height: 70.75px;
+}
+body.no-scoll-bar::-webkit-scrollbar {
+  width: 0px; /* width of the entire scrollbar */
 }
 /** GENERAL CLASSES */
+.vh-min-100 {
+  min-height: calc(100vh - var(--header-height) - var(--foter-height));
+}
 .z-index-sticky {
   z-index: 1020;
 }
@@ -21,26 +29,70 @@ body {
   height: auto;
 }
 .main-container {
-  background: #f8f8f8;
+  background-color: $gray-200;
 }
 .dropdown .dropdown-menu.dropdown-menu-end:before {
   display: none !important;
 }
 
-/** ---- SUBPAGES ---- */
+/** ---- HEADER ---- */
 .header.navbar {
   .logo-header {
     height: var(--logo-header-height);
   }
   @media (max-width: 992px) {
     #navigation.navbar-collapse {
-      background-color: $gray-200;
+      //background-color: $gray-100;
+    }
+  }
+  .nav-link {
+    font-size: $font-size-base;
+  }
+}
+.enserio-page {
+  padding-top: calc(var(--logo-header-height) + var(--offset-top));
+  padding-bottom: 2rem;
+}
+
+/** ---- HOME ---- */
+.pagina-home {
+  .big-container {
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title {
+    font-size: 20rem;
+  }
+  @media (max-width: 1200px) {
+    .title {
+      font-size: 16rem;
+    }
+  }
+  @media (max-width: 992px) {
+    .title {
+      font-size: 12rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .title {
+      font-size: 10rem;
+    }
+  }
+  @media (max-width: 576px) {
+    .title {
+      font-size: 5rem;
+    }
+  }
+  @media (max-width: 360px) {
+    .title {
+      font-size: 3rem;
     }
   }
 }
-.pagina-listado-proyectos {
-  padding-top: calc(var(--logo-header-height) + var(--offset-top));
-}
+
+/** ---- LISTADO PROYECTOS ---- */
+
+/** ---- PAGINA PROYECTO ---- */
 .pagina-proyecto {
   .img-header {
     .main-title {
@@ -67,5 +119,17 @@ body {
         padding-right: 10px;
       }
     }
+  }
+}
+
+/** ---- CONTACTO ---- */
+.pagina-contacto {
+  .input-group.input-group-dynamic .form-control,
+  .input-group.input-group-static .form-control {
+    transition: 0.2s ease;
+  }
+  img {
+    object-fit: cover;
+    object-position: left;
   }
 }

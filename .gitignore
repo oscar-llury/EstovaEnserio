@@ -4,3 +4,8 @@ package-lock.json
 tmp
 stderr.log
 .htaccess
+error_log
+/vendor/
+composer.lock
+logotipos
+temporal

@@ -1,0 +1,56 @@
+// extends color theme classes
+$custom-colors: (
+  "success-light": $success-light,
+  "primary-light": $primary-light,
+  "primary-dark": $primary-dark,
+  "tertiary": $tertiary,
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// extends sizes classes
+$custom-sizes: (
+  "0875": $font-size-base * 0.875,
+  "075": $font-size-base * 0.75,
+  "05": $font-size-base * 0.5,
+  "025": $font-size-base * 0.25,
+);
+$font-sizes: map-merge($font-sizes, $custom-sizes);
+
+$custom-spacers: (
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+  9: $spacer * 8,
+);
+$spacers: map-merge($spacers, $custom-spacers);
+
+$utilities: () !default;
+$utilities: map-merge(
+  (
+    "position": (
+      property: position,
+      values: static relative absolute fixed sticky inherit,
+    ),
+  ),
+  $utilities
+);
+
+$utilities: map-merge(
+  (
+    "width": (
+      property: width,
+      class: w,
+      values: (
+        25: 25%,
+        50: 50%,
+        75: 75%,
+        85: 85%,
+        100: 100%,
+        125: 125%,
+        150: 150%,
+        auto: auto,
+      ),
+    ),
+  ),
+  $utilities
+);

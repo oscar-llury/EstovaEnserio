@@ -22,6 +22,7 @@ imagesLoaded(grid).on("done", function (instance) {
 //image.img.parentElement.classList.add("grid-loaded");
 
 // open images at modal
+/*
 let modal = document.querySelector("#myModal");
 let imagesModal = document.querySelectorAll("div.img_content.openImg");
 let modalImg = document.querySelector("#imgModal");
@@ -40,7 +41,7 @@ let modalClose = document.querySelector("#modalClose");
 modalClose.onclick = function () {
   modal.style.display = "none";
 };
-
+*/
 //let allImagesText = document.querySelectorAll("div.img_content img");
 //console.dir(allImagesText);
 

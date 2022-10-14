@@ -1,5 +1,5 @@
-<div class="position-sticky z-index-sticky top-0">
-    <nav class="header navbar navbar-expand-lg position-absolute shadow-none w-100 z-index-3">
+<header class="header position-sticky z-index-sticky top-0 blur">
+    <div class="header navbar navbar-expand-lg shadow-none w-100 z-index-3">
         <div class="container">
             <a class="navbar-brand p-0" href="/" rel="tooltip" title="EstovaEnserio" data-placement="bottom">
                 <img class='logo-header' src="/img/logo/ENSERIO.png" alt="" />
@@ -11,7 +11,7 @@
                     <span class="navbar-toggler-bar bar3"></span>
                 </span>
             </button>
-            <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
+            <nav class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
                 <ul class="navbar-nav navbar-nav-hover ms-auto">
                     <li class="nav-item dropdown dropdown-hover mx-2">
                         <a role="button" class="nav-link d-flex cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
@@ -55,7 +55,7 @@
                         </a>
                     </li>
                 </ul>
-            </div>
+            </nav>
         </div>
-    </nav>
-</div>
+    </div>
+</header>

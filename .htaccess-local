@@ -1,7 +1,12 @@
 # Default index page
 DirectoryIndex index.php
+
+ErrorDocument 403 /error404.php
+ErrorDocument 404 /error404.php
+ErrorDocument 500 /error404.php
+
 # Remove php and html file extension
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([^\.]+)$ $1.php [NC,L]
 #ln -s .htaccess-local .htaccess

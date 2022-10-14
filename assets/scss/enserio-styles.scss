@@ -3,13 +3,65 @@
 
 // Custom Fonts & Variables
 @import "fonts";
-@import "variables";
+@import "custom_variables.scss";
+
+// Bootstrap Variables
+@import "material-kit-pro/bootstrap/variables";
+
+// Custom maps
+@import "./functions.scss";
 
 // Theme Variables
-@import "material-kit-pro/variables";
+@import "variables";
 
-// Bootstrap Core
-@import "material-kit-pro/bootstrap/bootstrap";
+// Import Utilities material kit pro
+//@import "material-kit-pro/utilities";
+
+//FUNCTIONS
+@import "material-kit-pro/bootstrap/maps";
+@import "material-kit-pro/bootstrap/mixins";
+@import "material-kit-pro/bootstrap/root";
+
+// Layout & components
+@import "material-kit-pro/bootstrap/reboot";
+@import "material-kit-pro/bootstrap/type";
+@import "material-kit-pro/bootstrap/images";
+@import "material-kit-pro/bootstrap/containers";
+@import "material-kit-pro/bootstrap/grid";
+@import "material-kit-pro/bootstrap/tables";
+@import "material-kit-pro/bootstrap/forms";
+@import "material-kit-pro/bootstrap/buttons";
+@import "material-kit-pro/bootstrap/transitions";
+@import "material-kit-pro/bootstrap/dropdown";
+@import "material-kit-pro/bootstrap/button-group";
+@import "material-kit-pro/bootstrap/nav";
+@import "material-kit-pro/bootstrap/navbar";
+@import "material-kit-pro/bootstrap/card";
+@import "material-kit-pro/bootstrap/accordion";
+@import "material-kit-pro/bootstrap/breadcrumb";
+@import "material-kit-pro/bootstrap/pagination";
+@import "material-kit-pro/bootstrap/badge";
+@import "material-kit-pro/bootstrap/alert";
+@import "material-kit-pro/bootstrap/progress";
+@import "material-kit-pro/bootstrap/list-group";
+@import "material-kit-pro/bootstrap/close";
+@import "material-kit-pro/bootstrap/toasts";
+@import "material-kit-pro/bootstrap/modal";
+@import "material-kit-pro/bootstrap/tooltip";
+@import "material-kit-pro/bootstrap/popover";
+@import "material-kit-pro/bootstrap/carousel";
+@import "material-kit-pro/bootstrap/spinners";
+@import "material-kit-pro/bootstrap/offcanvas";
+@import "material-kit-pro/bootstrap/placeholders";
+
+@import "material-kit-pro/bootstrap/utilities";
+
+// Helpers
+@import "material-kit-pro/bootstrap/helpers";
+
+// Utilities
+@import "material-kit-pro/bootstrap/utilities/api";
+// scss-docs-end import-stack
 
 // Theme Core
 @import "material-kit-pro/theme-pro";

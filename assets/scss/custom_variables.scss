@@ -1,0 +1,47 @@
+// Toggle global options
+$enable-gradients: false;
+$enable-shadows: true;
+
+// Customize some defaults
+$body-bg: rgb(240, 240, 240);
+$text-color: rgb(20, 20, 20);
+
+$primary: #d09729;
+$primary-light: #f1c875;
+$primary-dark: #926711; //#0d4970;
+
+$primary-gradient: $primary;
+$primary-gradient-state: $primary-dark;
+
+$secondary: #b1003e;
+$tertiary: #345c6e;
+//$tertiary: #494949;
+$success: #005e14;
+$success-light: #5aaf49;
+$info: #f6d0b1;
+$warning: #f7b05b;
+$dark: #272727;
+$light: #e9eaeb;
+$danger: #a4001d;
+$black: #000;
+
+$text-light: #f2f2f2;
+$text-dark: $text-color;
+
+$bg-nav: #e9eaeb !default; //$gray-200
+$bg-dark-blue: #3a416f;
+
+$link-color: $text-color;
+$link-hover-color: $primary-dark;
+
+$font-family-sans-serif: "Argentum Sans", Helvetica, Arial, sans-serif !default;
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-roboto-slab: "Argentum Sans", sans-serif !default;
+
+$border-width: 0px;
+
+$input-background-image: linear-gradient(0deg, #177abd 2px, rgba(156, 39, 176, 0) 0), linear-gradient(0deg, #177abd 2px, hsla(0deg, 0%, 82%, 0) 0);
+$input-background-size: 100% 100%, 100% 100%;
+$form-label-margin-bottom: 0rem;
+
+$enable-negative-margins: true;
