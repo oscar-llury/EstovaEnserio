@@ -16,11 +16,16 @@
   <link href="./assets/css/project-gallery.css" rel="stylesheet" />
 </head>
 
-<body>
+<body class="no-scoll-bar">
   <!-- Navbar -->
   <?php include_once('./includes/header.php'); ?>
-  <div class="blur shadow-blur pagina-listado-proyectos min-vh-80 enserio-page">
+  <div class="blur shadow-blur pagina-home vh-min-100 enserio-page position-relative">
     <!-- -------   START CONTENT 1 -------- -->
+    <div class="position-absolute start-50 top-50 big-container">
+      <div class="d-flex align-items-center justify-content-center">
+        <h1 class="text-center m-0 title px-4 text-bg-dark">¡Hola!</h1>
+      </div>
+    </div>
     <!-- -------   END CONTENT  -------- -->
   </div>
 

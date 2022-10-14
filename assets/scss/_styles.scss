@@ -9,11 +9,15 @@ html {
 body {
   --logo-header-height: 75px;
   --offset-top: -3rem;
+  --header-height: 91px;
+  --foter-height: 70.75px;
 }
-
+body.no-scoll-bar::-webkit-scrollbar {
+  width: 0px; /* width of the entire scrollbar */
+}
 /** GENERAL CLASSES */
 .vh-min-100 {
-  min-height: calc(100vh - (var(--logo-header-height) - var(--offset-top)));
+  min-height: calc(100vh - var(--header-height) - var(--foter-height));
 }
 .z-index-sticky {
   z-index: 1020;
@@ -48,6 +52,42 @@ body {
 .enserio-page {
   padding-top: calc(var(--logo-header-height) + var(--offset-top));
   padding-bottom: 2rem;
+}
+
+/** ---- HOME ---- */
+.pagina-home {
+  .big-container {
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title {
+    font-size: 20rem;
+  }
+  @media (max-width: 1200px) {
+    .title {
+      font-size: 16rem;
+    }
+  }
+  @media (max-width: 992px) {
+    .title {
+      font-size: 12rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .title {
+      font-size: 10rem;
+    }
+  }
+  @media (max-width: 576px) {
+    .title {
+      font-size: 5rem;
+    }
+  }
+  @media (max-width: 360px) {
+    .title {
+      font-size: 3rem;
+    }
+  }
 }
 
 /** ---- LISTADO PROYECTOS ---- */
