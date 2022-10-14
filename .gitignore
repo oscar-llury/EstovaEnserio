@@ -9,3 +9,5 @@ error_log
 composer.lock
 logotipos
 temporal
+assets/css/enserio-styles.css.map
+assets/css/enserio-styles.css

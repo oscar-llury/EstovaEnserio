@@ -1,6 +1,4 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/estovaenserio/estovaenserio
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp contenido-digital.html $DEPLOYPATH
+    - npm i && npm run compile-scss-prod
