@@ -7,3 +7,5 @@ stderr.log
 error_log
 /vendor/
 composer.lock
+logotipos
+temporal
