@@ -28,12 +28,14 @@
           <!-- row 1 -->
           <div class="grid-item">
             <!--<a>-->
-            <div class="img_content openImg">
-              <img src="./img/contenido-digital/01-lio_studio.jpg" alt="Lio" />
-              <div class="text_content">
-                <h2 class="title">Lio</h2>
-                <h3 class="category">Moda</h3>
-              </div>
+            <div class="img_content">
+              <a href='./contenido-digital/lio-studio.php'>
+                <img src="./img/contenido-digital/01-lio_studio.jpg" alt="Lio" />
+                <div class="text_content">
+                  <h2 class="title">Lio</h2>
+                  <h3 class="category">Moda</h3>
+                </div>
+              </a>
             </div>
           </div>
           <div class="grid-item">

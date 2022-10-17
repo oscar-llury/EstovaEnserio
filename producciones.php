@@ -27,12 +27,14 @@
           <div class="grid-sizer"></div>
           <!-- row 1 -->
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/producciones/01-singleton.jpg" alt="SINGLETON" />
-              <div class="text_content">
-                <h2 class="title">SINGLETON</h2>
-                <h3 class="category">Publicidad</h3>
-              </div>
+            <div class="img_content">
+              <a href='./producciones/singleton.php'>
+                <img src="./img/producciones/01-singleton.jpg" alt="SINGLETON" />
+                <div class="text_content">
+                  <h2 class="title">SINGLETON</h2>
+                  <h3 class="category">Publicidad</h3>
+                </div>
+              </a>
             </div>
           </div>
           <div class="grid-item">
