@@ -31737,6 +31737,8 @@ body {
   --offset-top: -3rem;
   --header-height: 91px;
   --foter-height: 70.75px;
+  --vh100-offset-header: calc(var(--header-height));
+  --vh100-offset: calc(var(--header-height) + var(--footer-height));
 }
 
 body.no-scoll-bar::-webkit-scrollbar {
@@ -31745,7 +31747,12 @@ body.no-scoll-bar::-webkit-scrollbar {
 
 /** GENERAL CLASSES */
 .vh-min-100 {
-  min-height: calc(100vh - var(--header-height) - var(--foter-height));
+  min-height: calc(100vh - var(--vh100-offset));
+}
+@media (max-width: 768px) {
+  .vh-min-100 {
+    height: calc(100svh - var(--vh100-offset));
+  }
 }
 
 .z-index-sticky {
