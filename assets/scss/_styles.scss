@@ -26,7 +26,7 @@ body.no-scoll-bar::-webkit-scrollbar {
 .vh-min-100 {
   min-height: calc(100vh - var(--vh100-offset));
   @media (max-width: 768px) {
-    height: calc(100svh - var(--vh100-offset));
+    min-height: calc(100svh - var(--vh100-offset));
   }
 }
 .z-index-sticky {
