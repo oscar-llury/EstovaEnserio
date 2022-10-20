@@ -15,7 +15,7 @@ body {
   --vh100-offset: calc(var(--header-height) + var(--footer-height));
 
   @media (max-width: 400px) {
-    --footer-height: 67.5px;
+    --footer-height: 67px;
     //--vh100-offset: calc(var(--header-height) + var(--footer-height-m400));
   }
 }
@@ -24,10 +24,11 @@ body.no-scoll-bar::-webkit-scrollbar {
 }
 /** GENERAL CLASSES */
 .vh-min-100 {
-  min-height: calc(100vh - var(--vh100-offset));
+  min-height: calc(100svh - var(--vh100-offset));
+  /*
   @media (max-width: 768px) {
     min-height: calc(100svh - var(--vh100-offset));
-  }
+  }*/
 }
 .z-index-sticky {
   z-index: 1020;
