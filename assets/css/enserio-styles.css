@@ -31736,13 +31736,13 @@ body {
   --logo-header-height: 75px;
   --offset-top: -3rem;
   --header-height: 91px;
-  --footer-height: 70.75px;
+  --footer-height: 54.75px;
   --vh100-offset-header: calc(var(--header-height));
   --vh100-offset: calc(var(--header-height) + var(--footer-height));
 }
 @media (max-width: 400px) {
   body {
-    --footer-height: 67px;
+    --footer-height: 51.5px;
   }
 }
 

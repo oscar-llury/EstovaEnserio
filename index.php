@@ -30,7 +30,7 @@
   </div>
 
   <!-- Footer -->
-  <footer class="footer py-4 bg-white blur shadow position-absolute bottom-0 w-100">
+  <footer class="footer py-3 bg-white blur shadow position-absolute bottom-0 w-100">
     <div class=" text-center">
       <p class="m-0">&copy; Esto va Enserio S.L. <script>
           document.write(new Date().getFullYear());
