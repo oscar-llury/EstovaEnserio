@@ -1,6 +1,6 @@
 <footer class="footer py-4 bg-white blur shadow">
     <div class=" text-center">
-        <p class="fs-0875 m-0">&copy; Esto va Enserio S.L. <script>
+        <p class="m-0">&copy; Esto va Enserio S.L. <script>
                 document.write(new Date().getFullYear());
             </script>. Todos los derechos reservados.</p>
     </div>
