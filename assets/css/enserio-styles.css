@@ -31736,14 +31736,13 @@ body {
   --logo-header-height: 75px;
   --offset-top: -3rem;
   --header-height: 91px;
-  --footer-height: 70.75px;
+  --footer-height: 54.75px;
   --vh100-offset-header: calc(var(--header-height));
   --vh100-offset: calc(var(--header-height) + var(--footer-height));
 }
 @media (max-width: 400px) {
   body {
-    --footer-height-m400: 93.5px;
-    --vh100-offset: calc(var(--header-height) + var(--footer-height-m400));
+    --footer-height: 51.5px;
   }
 }
 
@@ -31753,12 +31752,11 @@ body.no-scoll-bar::-webkit-scrollbar {
 
 /** GENERAL CLASSES */
 .vh-min-100 {
-  min-height: calc(100vh - var(--vh100-offset));
-}
-@media (max-width: 768px) {
-  .vh-min-100 {
+  min-height: calc(100svh - var(--vh100-offset));
+  /*
+  @media (max-width: 768px) {
     min-height: calc(100svh - var(--vh100-offset));
-  }
+  }*/
 }
 
 .z-index-sticky {
@@ -31797,11 +31795,14 @@ body.no-scoll-bar::-webkit-scrollbar {
 /** ---- FOOTER ---- */
 .footer {
   max-height: var(--footer-height);
-  padding: 0px 12px;
+  padding: 0px 5px;
+}
+.footer p {
+  font-size: 0.875rem;
 }
 @media (max-width: 400px) {
-  .footer {
-    max-height: var(--footer-height-m400);
+  .footer p {
+    font-size: 0.75rem;
   }
 }
 
