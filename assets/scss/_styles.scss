@@ -45,6 +45,12 @@ body.no-scoll-bar::-webkit-scrollbar {
 .dropdown .dropdown-menu.dropdown-menu-end:before {
   display: none !important;
 }
+.object-fit-cover {
+  object-fit: cover;
+}
+.object-fit-contain {
+  object-fit: contain;
+}
 
 /** ---- HEADER ---- */
 .header.navbar {
@@ -120,8 +126,11 @@ body.no-scoll-bar::-webkit-scrollbar {
 /** ---- PAGINA PROYECTO ---- */
 .pagina-proyecto {
   .img-header {
+    max-height: 200px;
+    overflow: hidden;
     .main-title {
-      left: 50px;
+      top: 50%;
+      transform: translateY(-50%);
     }
   }
   .col-info-proyecto {
