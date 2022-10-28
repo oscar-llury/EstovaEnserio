@@ -27,16 +27,16 @@
   <div class="blur shadow-blur">
     <!-- -------   START CONTENT 1 - title & description and 6 IMAGES   -------- -->
     <div class="container-fluid img-header position-relative d-flex justify-content-center">
-      <div class="main-title position-absolute container">
-        <h1 class="">Lio Studio</h1>
+      <div class="main-title position-absolute container-lg">
+        <h1 class="ms-4 ms-lg-0 mb-0">Lio Studio</h1>
       </div>
       <img src="/img/background-image-1.jpg" alt="" class="w-100 object-fit-cover" />
     </div>
     <div class="container-fluid">
-      <div class="py-5 main-container">
-        <div class="container">
+      <div class="main-container">
+        <div class="pb-4 container-lg">
           <div class="row">
-            <div class="col-4 col-info-proyecto">
+            <div class="col-12 col-md-5 col-lg-4 col-info-proyecto pt-4">
               <h2 class="line-after">Lio Studio</h2>
               <p>Creación de contenido digital más base de website para 710 studio desde sus inicios, con fotografía y vídeo para ecommerce y campañas de moda.</p>
               <div class="accordion my-4" id="accordionDescripcion">
@@ -87,21 +87,21 @@
 
               <div class="mt-4">
                 <p class="d-inline-block">Compartir:</p>
-                <button type="button" class="btn btn-icon-only rounded-circle text-lg">
+                <button type="button" class="btn btn-icon-only rounded-circle text-lg shadow-none">
                   <i class="fa-brands fa-facebook-f"></i>
                 </button>
-                <button type="button" class="btn btn-icon-only rounded-circle text-lg">
+                <button type="button" class="btn btn-icon-only rounded-circle text-lg shadow-none">
                   <i class="fa-brands fa-linkedin-in"></i>
                 </button>
-                <button type="button" class="btn btn-icon-only rounded-circle text-lg">
+                <button type="button" class="btn btn-icon-only rounded-circle text-lg shadow-none">
                   <i class="fa-brands fa-instagram"></i>
                 </button>
-                <button type="button" class="btn btn-icon-only rounded-circle text-lg">
+                <button type="button" class="btn btn-icon-only rounded-circle text-lg shadow-none">
                   <i class="fa-brands fa-tiktok"></i>
                 </button>
               </div>
             </div>
-            <div class="col-8">
+            <div class="col-12 col-lg-8 col-md-7 order-first order-md-last pt-4">
               <img src="/img/contenido-digital/01-lio_studio.jpg" alt="" class="w-100" />
             </div>
           </div>

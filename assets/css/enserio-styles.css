@@ -31766,6 +31766,18 @@ body.no-scoll-bar::-webkit-scrollbar {
   width: 0px; /* width of the entire scrollbar */
 }
 
+::-moz-selection {
+  background: rgba(217, 255, 0, 0.568627451) !important;
+  text-shadow: 2.5px 2px 2px #b1003e;
+  color: #e9eaeb;
+}
+
+::selection {
+  background: rgba(217, 255, 0, 0.568627451) !important;
+  text-shadow: 2.5px 2px 2px #b1003e;
+  color: #e9eaeb;
+}
+
 /** GENERAL CLASSES */
 .vh-min-100 {
   min-height: calc(100svh - var(--vh100-offset));

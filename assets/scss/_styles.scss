@@ -22,6 +22,13 @@ body {
 body.no-scoll-bar::-webkit-scrollbar {
   width: 0px; /* width of the entire scrollbar */
 }
+//custom selection text
+::selection {
+  background: $selection-bg !important;
+  text-shadow: 2.5px 2px 2px $secondary;
+  color: $light;
+}
+
 /** GENERAL CLASSES */
 .vh-min-100 {
   min-height: calc(100svh - var(--vh100-offset));
@@ -148,6 +155,7 @@ body.no-scoll-bar::-webkit-scrollbar {
       font-weight: 600;
       margin: 0%;
     }
+
     .table-info-proyecto {
       td:nth-child(1) {
         padding-right: 10px;
