@@ -1,6 +1,7 @@
 // Toggle global options
 $enable-gradients: false;
 $enable-shadows: true;
+$enable-negative-margins: true;
 
 // Customize some defaults
 $body-bg: rgb(240, 240, 240);
@@ -44,4 +45,6 @@ $input-background-image: linear-gradient(0deg, #177abd 2px, rgba(156, 39, 176, 0
 $input-background-size: 100% 100%, 100% 100%;
 $form-label-margin-bottom: 0rem;
 
-$enable-negative-margins: true;
+$accordion-border-radius: 0px;
+$accordion-border-width: 1px;
+$accordion-border-color: $black;

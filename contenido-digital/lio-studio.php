@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="icon" type="image/png" href="./img/logo/favicon.ico" />
+  <link rel="icon" type="image/png" href="/img/logo/favicon.ico" />
   <title>EstovaEnserio</title>
 
   <!-- Nucleo Icons -->
-  <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
-  <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+  <link href="/assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="/assets/css/nucleo-svg.css" rel="stylesheet" />
 
   <!-- Font Awesome Icons -->
   <link href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" rel="stylesheet">
@@ -17,7 +17,7 @@
   <link href="/node_modules/@fortawesome/fontawesome-free/css/solid.css" rel="stylesheet">
 
   <!-- CSS Files -->
-  <link href="../assets/css/enserio-styles.css" rel="stylesheet" />
+  <link href="/assets/css/enserio-styles.css" rel="stylesheet" />
 
 </head>
 
@@ -30,7 +30,7 @@
       <div class="main-title position-absolute container">
         <h1 class="">Lio Studio</h1>
       </div>
-      <img src="../img/background-image-1.jpg" alt="" class="w-100 object-fit-cover" />
+      <img src="/img/background-image-1.jpg" alt="" class="w-100 object-fit-cover" />
     </div>
     <div class="container-fluid">
       <div class="py-5 main-container">
@@ -43,12 +43,12 @@
                 <div class="accordion-item">
                   <div class="accordion-header" id="dscrheader">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dscrcollapse" aria-expanded="false" aria-controls="dscrcollapse">
-                      Descripción
+                      Sinopsis
                     </button>
                   </div>
                   <div id="dscrcollapse" class="accordion-collapse collapse" aria-labelledby="dscrheader" data-bs-parent="#accordionDescripcion">
                     <div class="accordion-body">
-                      <p>Marca de prendas polivalentes. Son una marca que apuesta por la sostenibilidad, y con tejidos Pyratex. Comprometidas con el medio ambiente, 710 Studio trabaja con materiales reciclados, además de ello suman un QR a sus prendas el cual se activa cuando la prenda comienza a ser perjudicial para el medioambiente. Así el consumidor puede devolver la prenda a cambio de descuentos y el tejido volverá a formar parte de la cadena de producción.</p>
+                      <p class="m-0">Marca de prendas polivalentes. Son una marca que apuesta por la sostenibilidad, y con tejidos Pyratex. Comprometidas con el medio ambiente, 710 Studio trabaja con materiales reciclados, además de ello suman un QR a sus prendas el cual se activa cuando la prenda comienza a ser perjudicial para el medioambiente. Así el consumidor puede devolver la prenda a cambio de descuentos y el tejido volverá a formar parte de la cadena de producción.</p>
                     </div>
                   </div>
                 </div>
@@ -62,7 +62,7 @@
                   </div>
                   <div id="mkgoffcollapse" class="accordion-collapse collapse" aria-labelledby="mkgoffheader" data-bs-parent="#accordionMakingoff">
                     <div class="accordion-body">
-                      <p>Marca de prendas polivalentes. Son una marca que apuesta por la sostenibilidad, y con tejidos Pyratex. Comprometidas con el medio ambiente, 710 Studio trabaja con materiales reciclados, además de ello suman un QR a sus prendas el cual se activa cuando la prenda comienza a ser perjudicial para el medioambiente. Así el consumidor puede devolver la prenda a cambio de descuentos y el tejido volverá a formar parte de la cadena de producción.</p>
+                      <p class="m-0">Marca de prendas polivalentes. Son una marca que apuesta por la sostenibilidad, y con tejidos Pyratex. Comprometidas con el medio ambiente, 710 Studio trabaja con materiales reciclados, además de ello suman un QR a sus prendas el cual se activa cuando la prenda comienza a ser perjudicial para el medioambiente. Así el consumidor puede devolver la prenda a cambio de descuentos y el tejido volverá a formar parte de la cadena de producción.</p>
                     </div>
                   </div>
                 </div>
@@ -79,8 +79,8 @@
                     <td>Contenido digital</td>
                   </tr>
                   <tr>
-                    <td>Fecha:</td>
-                    <td>12/01/2022</td>
+                    <td>Etiquetas:</td>
+                    <td>Moda</td>
                   </tr>
                 </tbody>
               </table>
@@ -102,7 +102,7 @@
               </div>
             </div>
             <div class="col-8">
-              <img src="../img/contenido-digital/01-lio_studio.jpg" alt="" class="w-100" />
+              <img src="/img/contenido-digital/01-lio_studio.jpg" alt="" class="w-100" />
             </div>
           </div>
         </div>
@@ -110,12 +110,9 @@
     </div>
     <!-- -------   END CONTENT 1 - title & description and 6 IMAGES   -------- -->
   </div>
-  <footer class="footer pt-5 mt-5"></footer>
-  <!--   Core JS Files   -->
-  <script src="/assets/js/core/popper.min.js" type="text/javascript"></script>
-  <script src="/assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <!-- Footer -->
+  <?php include_once('../includes/footer.php'); ?>
 
-  <script src="/assets/js/material-kit-pro.js" type="text/javascript"></script>
 </body>
 
 </html>

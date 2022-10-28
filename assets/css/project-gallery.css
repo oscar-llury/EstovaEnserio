@@ -28,7 +28,7 @@
   padding: 10px;
 }
 .img_content {
-  /*cursor: pointer;*/
+  cursor: pointer;
   position: relative;
   opacity: 1;
   transition: opacity 500ms;
