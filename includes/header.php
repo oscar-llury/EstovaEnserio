@@ -1,6 +1,6 @@
-<header class="header position-sticky z-index-sticky top-0 blur">
-    <div class="header navbar navbar-expand-lg shadow-none w-100 z-index-3">
-        <div class="container">
+<header class="position-stick z-index-sticky top-0 position-fixed">
+    <div class="header navbar navbar-expand-lg shadow-none w-100 z-index-3 position-absolut">
+        <div class="container m-0 mw-100 w-100">
             <a class="navbar-brand p-0" href="/" rel="tooltip" title="EstovaEnserio" data-placement="bottom">
                 <img class='logo-header' src="/img/logo/ENSERIO.png" alt="" />
             </a>

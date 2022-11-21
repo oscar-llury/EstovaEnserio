@@ -21,7 +21,7 @@
 
 </head>
 
-<body class="bg-gray-200 pagina-proyecto">
+<body class="bg-gray-200 pagina-proyecto" data-scroller>
   <!-- Navbar -->
   <?php include_once('../includes/header.php'); ?>
   <div class="blur shadow-blur">
@@ -32,13 +32,13 @@
       </div>
       <img src="/img/background-image-1.jpg" alt="" class="w-100 object-fit-cover" />
     </div>
-    <div class="container-fluid">
+    <main class="container-fluid" data-section='red'>
       <div class="main-container">
         <div class="pb-4 container-lg">
           <div class="row">
             <div class="col-12 col-md-5 col-lg-4 col-info-proyecto pt-4">
               <h2 class="line-after">Lio Studio</h2>
-              <p>Creación de contenido digital más base de website para 710 studio desde sus inicios, con fotografía y vídeo para ecommerce y campañas de moda.</p>
+              <p data-section='blue'>Creación de contenido digital más base de website para 710 studio desde sus inicios, con fotografía y vídeo para ecommerce y campañas de moda.</p>
               <div class="accordion my-4" id="accordionDescripcion">
                 <div class="accordion-item">
                   <div class="accordion-header" id="dscrheader">
@@ -107,7 +107,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </main>
     <!-- -------   END CONTENT 1 - title & description and 6 IMAGES   -------- -->
   </div>
   <!-- Footer -->

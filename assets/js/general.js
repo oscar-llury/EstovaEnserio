@@ -1,18 +1,27 @@
-const header = document.querySelector("header.header");
-const sectionOne = document.querySelector(".main-container");
+const header = document.querySelector("header .header");
+const sections = [...document.querySelectorAll("[data-section]")];
+const scrollRoot = document.querySelector("[data-scroller]");
 
-const sectionOneOptions = {
-  rootMargin: "-200px 0px 0px 0px",
+const options = {
+  root: scrollRoot,
+  rootMargin: `${header.offsetHeight * -1}px`,
+  threshold: 0,
+  //rootMargin: "20px 0px 0px 0px",
 };
 
-const sectionOneObserver = new IntersectionObserver(function (entries, sectionOneObserver) {
+/* The callback that will fire on intersection */
+const onIntersect = (entries) => {
   entries.forEach((entry) => {
-    if (!entry.isIntersecting) {
-      header.classList.add("nav-scrolled");
-    } else {
-      header.classList.remove("nav-scrolled");
-    }
+    const theme = entry.target.dataset.section;
+    header.setAttribute("data-theme", theme);
   });
-}, sectionOneOptions);
+};
 
-sectionOneObserver.observe(sectionOne);
+/* Create the observer */
+const observer = new IntersectionObserver(onIntersect, options);
+
+/* Set our observer to observe each section */
+sections.forEach((section) => {
+  observer.observe(section);
+});
+https://www.smashingmagazine.com/2021/07/dynamic-header-intersection-observer/

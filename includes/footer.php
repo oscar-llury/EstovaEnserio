@@ -13,6 +13,5 @@
 <!-- Theme JS -->
 <script src="/assets/js/material-kit-pro.min.js" type="text/javascript"></script>
 
-<!--
-<script src="./assets/js/general.js" type="text/javascript"></script>
--->
+
+<script src="/assets/js/general.js" type="text/javascript"></script>
