@@ -14,7 +14,7 @@ NAME=estovaenserio
 WIN_ROOT=$(echo $ROOT | sed 's,/\(.\)/,\1:/,' | sed 's,/,\\,g')
 cd ../..
 
-docker build --tag sf:"$NAME" -f "$DIR"/Dockerfile .
+docker build --tag estovaenserio:"$NAME" -f "$DIR"/Dockerfile .
 docker run \
     --name "$NAME" \
     --detach \
