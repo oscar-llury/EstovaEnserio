@@ -22,7 +22,7 @@ docker run \
     --interactive \
     --publish 80:80 \
     --volume "$WIN_ROOT":/home/usuario \
-    sf:"$NAME"
+    estovaenserio:"$NAME"
 
 
 #conectarse a docker desde cmd

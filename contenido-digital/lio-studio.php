@@ -28,7 +28,7 @@
     <!-- -------   START CONTENT 1 - title & description and 6 IMAGES   -------- -->
     <div class="container-fluid img-header position-relative d-flex justify-content-center">
       <div class="main-title position-absolute container-lg">
-        <h1 class="ms-4 ms-lg-0 mb-0">Lio Studio</h1>
+        <h1 class="ms-4 ms-lg-0 mb-0" id='h1Proyecto'></h1>
       </div>
       <img src="/img/background-image-1.jpg" alt="" class="w-100 object-fit-cover" />
     </div>
@@ -37,23 +37,23 @@
         <div class="pb-4 container-lg">
           <div class="row">
             <div class="col-12 col-md-5 col-lg-4 col-info-proyecto pt-4">
-              <h2 class="line-after">Lio Studio</h2>
-              <p>Creación de contenido digital más base de website para 710 studio desde sus inicios, con fotografía y vídeo para ecommerce y campañas de moda.</p>
+              <h2 class="line-after" id='h2Proyecto'></h2>
+              <p id='presentacion'></p>
               <div class="accordion my-4" id="accordionDescripcion">
                 <div class="accordion-item">
-                  <div class="accordion-header" id="dscrheader">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dscrcollapse" aria-expanded="false" aria-controls="dscrcollapse">
+                  <div class="accordion-header" id="sinopsisHeader">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sinopsisCollapse" aria-expanded="false" aria-controls="sinopsisCollapse">
                       Sinopsis
                     </button>
                   </div>
-                  <div id="dscrcollapse" class="accordion-collapse collapse" aria-labelledby="dscrheader" data-bs-parent="#accordionDescripcion">
+                  <div id="sinopsisCollapse" class="accordion-collapse collapse" aria-labelledby="sinopsisHeader" data-bs-parent="#accordionDescripcion">
                     <div class="accordion-body">
-                      <p class="m-0">Marca de prendas polivalentes. Son una marca que apuesta por la sostenibilidad, y con tejidos Pyratex. Comprometidas con el medio ambiente, 710 Studio trabaja con materiales reciclados, además de ello suman un QR a sus prendas el cual se activa cuando la prenda comienza a ser perjudicial para el medioambiente. Así el consumidor puede devolver la prenda a cambio de descuentos y el tejido volverá a formar parte de la cadena de producción.</p>
+                      <p class="m-0" id='sinopsis'></p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="accordion my-4" id="accordionMakingoff">
+              <div class="accordion my-4 d-none" id="accordionMakingoff">
                 <div class="accordion-item">
                   <div class="accordion-header" id="mkgoffheader">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mkgoffcollapse" aria-expanded="false" aria-controls="mkgoffcollapse">
@@ -62,7 +62,7 @@
                   </div>
                   <div id="mkgoffcollapse" class="accordion-collapse collapse" aria-labelledby="mkgoffheader" data-bs-parent="#accordionMakingoff">
                     <div class="accordion-body">
-                      <p class="m-0">Marca de prendas polivalentes. Son una marca que apuesta por la sostenibilidad, y con tejidos Pyratex. Comprometidas con el medio ambiente, 710 Studio trabaja con materiales reciclados, además de ello suman un QR a sus prendas el cual se activa cuando la prenda comienza a ser perjudicial para el medioambiente. Así el consumidor puede devolver la prenda a cambio de descuentos y el tejido volverá a formar parte de la cadena de producción.</p>
+                      <p class="m-0"></p>
                     </div>
                   </div>
                 </div>
@@ -112,6 +112,9 @@
   </div>
   <!-- Footer -->
   <?php include_once('../includes/footer.php'); ?>
+
+  <script src="../assets/js/lio-studio.js" type="text/javascript"></script>
+
 
 </body>
 
