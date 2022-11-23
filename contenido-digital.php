@@ -32,7 +32,7 @@
               <a href='./contenido-digital/lio-studio.php'>
                 <img src="./img/contenido-digital/01-lio_studio.jpg" alt="Lio" />
                 <div class="text_content">
-                  <h2 class="title">Lio</h2>
+                  <h2 class="title">710 STUDIO</h2>
                   <h3 class="category">Moda</h3>
                 </div>
               </a>
@@ -66,7 +66,7 @@
                 <img src="./img/contenido-digital/04-arnau_griso.jpg" alt="ARNAU GRISO" />
                 <div class="text_content">
                   <h2 class="title">ARNAU GRISO</h2>
-                  <h3 class="category">Conciertos</h3>
+                  <h3 class="category">Artistas</h3>
                 </div>
               </a>
             </div>
@@ -99,7 +99,7 @@
                 <img src="./img/contenido-digital/07-fyvar.jpg" alt="FYVAR" />
                 <div class="text_content">
                   <h2 class="title">FYVAR</h2>
-                  <h3 class="category">Corporativo</h3>
+                  <h3 class="category">Eventos</h3>
                 </div>
               </a>
             </div>
@@ -120,7 +120,7 @@
               <img src="./img/contenido-digital/09-botran.jpg" alt="BOTRAN" />
               <div class="text_content">
                 <h2 class="title">BOTRAN</h2>
-                <h3 class="category">Corporativo</h3>
+                <h3 class="category">Eventos</h3>
               </div>
             </div>
           </div>
@@ -130,7 +130,7 @@
                 <img src="./img/contenido-digital/10-cefmx.jpg" alt="CEFMX FREESTYLE MOTOCROSS" />
                 <div class="text_content">
                   <h2 class="title">CEFMX FREESTYLE MOTOCROSS</h2>
-                  <h3 class="category">Deportes</h3>
+                  <h3 class="category">Eventos</h3>
                 </div>
               </a>
             </div>
@@ -164,7 +164,7 @@
               <img src="./img/contenido-digital/13-noemi_misma.jpg" alt="NOEMI MISMA" />
               <div class="text_content">
                 <h2 class="title">NOEMI MISMA</h2>
-                <h3 class="category">Influencer</h3>
+                <h3 class="category">Artistas</h3>
               </div>
             </div>
           </div>
@@ -173,7 +173,7 @@
               <img src="./img/contenido-digital/14-ifema.jpg" alt="IFEMA" />
               <div class="text_content">
                 <h2 class="title">IFEMA</h2>
-                <h3 class="category">Corporativo</h3>
+                <h3 class="category">Eventos</h3>
               </div>
             </div>
           </div>
@@ -182,7 +182,7 @@
               <img src="./img/contenido-digital/15-axa.jpg" alt="AXA" />
               <div class="text_content">
                 <h2 class="title">AXA</h2>
-                <h3 class="category">Corporativo</h3>
+                <h3 class="category">Eventos</h3>
               </div>
             </div>
           </div>
@@ -191,7 +191,7 @@
               <img src="./img/contenido-digital/16-jorge_leon.jpg" alt="JORGE LEON" />
               <div class="text_content">
                 <h2 class="title">JORGE LEON</h2>
-                <h3 class="category">Videoclip</h3>
+                <h3 class="category">Artistas</h3>
               </div>
             </div>
           </div>
@@ -199,9 +199,9 @@
           <!-- row 5 -->
           <div class="grid-item">
             <div class="img_content openImg">
-              <img src="./img/contenido-digital/17-showcase.jpg" alt="H SHOWCASE" />
+              <img src="./img/contenido-digital/17-gastronomia.jpg" alt="H SHOWCASE" />
               <div class="text_content">
-                <h2 class="title">H SHOWCASE</h2>
+                <h2 class="title">Reel Gastronomía</h2>
                 <h3 class="category">Gastronomía</h3>
               </div>
             </div>
@@ -211,7 +211,7 @@
               <img src="./img/contenido-digital/18-col_guatemala.jpg" alt="COL GUATEMALA" />
               <div class="text_content">
                 <h2 class="title">COL GUATEMALA</h2>
-                <h3 class="category">Festival</h3>
+                <h3 class="category">Eventos</h3>
               </div>
             </div>
           </div>
@@ -220,7 +220,7 @@
               <img src="./img/contenido-digital/19-cuttoo.jpg" alt="CUTTOO" />
               <div class="text_content">
                 <h2 class="title">CUTTOO</h2>
-                <h3 class="category">Corporativo</h3>
+                <h3 class="category">Artistas</h3>
               </div>
             </div>
           </div>
@@ -230,7 +230,7 @@
                 <img src="./img/contenido-digital/20-tasty_poke.jpg" alt="TASTY POKE" />
                 <div class="text_content">
                   <h2 class="title">TASTY POKE</h2>
-                  <h3 class="category"></h3>
+                  <h3 class="category">Gastronomía</h3>
                 </div>
               </a>
             </div>

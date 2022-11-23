@@ -51,7 +51,7 @@
               <img src="./img/producciones/03-arsys.jpg" alt="ARSYS" />
               <div class="text_content">
                 <h2 class="title">ARSYS</h2>
-                <h3 class="category">Corporativo</h3>
+                <h3 class="category">Comunicación Corporativa</h3>
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@
               <img src="./img/producciones/04-ie.jpg" alt="IE" />
               <div class="text_content">
                 <h2 class="title">IE</h2>
-                <h3 class="category">Corporativo</h3>
+                <h3 class="category">Comunicación Corporativa</h3>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@
               <img src="./img/producciones/07-evolve_academy.jpg" alt="EVOLVE ACADEMY" />
               <div class="text_content">
                 <h2 class="title">EVOLVE ACADEMY</h2>
-                <h3 class="category">Corporativo</h3>
+                <h3 class="category">Comunicación Corporativa</h3>
               </div>
             </div>
           </div>
@@ -98,7 +98,7 @@
               <img src="./img/producciones/08-carrefour.jpg" alt="CARREFOUR" />
               <div class="text_content">
                 <h2 class="title">CARREFOUR</h2>
-                <h3 class="category">Gastronomía</h3>
+                <h3 class="category">Publicidad</h3>
               </div>
             </div>
           </div>
@@ -109,7 +109,7 @@
               <img src="./img/producciones/09-cepsa.jpg" alt="CEPSA" />
               <div class="text_content">
                 <h2 class="title">CEPSA</h2>
-                <h3 class="category">Corporativo</h3>
+                <h3 class="category">Comunicación Corporativa</h3>
               </div>
             </div>
           </div>
@@ -124,22 +124,23 @@
           </div>
           <div class="grid-item">
             <div class="img_content openImg">
-              <img src="./img/producciones/11-fireball.jpg" alt="FIREBALL" />
+              <img src="./img/producciones/11-prosegur.jpg" alt="PROSEGUR" />
               <div class="text_content">
-                <h2 class="title">FIREBALL</h2>
-                <h3 class="category">Producto</h3>
+                <h2 class="title">PROSEGUR</h2>
+                <h3 class="category">Comunicación Corporativa</h3>
               </div>
             </div>
           </div>
           <div class="grid-item">
             <div class="img_content openImg">
-              <img src="./img/producciones/12-prosegur.jpg" alt="PROSEGUR" />
+              <img src="./img/producciones/12-fireball.jpg" alt="FIREBALL" />
               <div class="text_content">
-                <h2 class="title">PROSEGUR</h2>
-                <h3 class="category">Corporativo</h3>
+                <h2 class="title">FIREBALL</h2>
+                <h3 class="category">Publicidad</h3>
               </div>
             </div>
           </div>
+
 
           <!-- row 4 -->
           <div class="grid-item">
@@ -156,7 +157,7 @@
               <img src="./img/producciones/14-imperial_ron_barcelo.jpg" alt="BARCELÓ IMPERIAL" />
               <div class="text_content">
                 <h2 class="title">BARCELÓ IMPERIAL</h2>
-                <h3 class="category">Producto</h3>
+                <h3 class="category">Publicidad</h3>
               </div>
             </div>
           </div>
@@ -174,7 +175,7 @@
               <img src="./img/producciones/16-scalpers.jpg" alt="SCALPERS" />
               <div class="text_content">
                 <h2 class="title">SCALPERS</h2>
-                <h3 class="category">Corporativo</h3>
+                <h3 class="category">Comunicación Corporativa</h3>
               </div>
             </div>
           </div>
@@ -185,7 +186,7 @@
               <img src="./img/producciones/17-modeapp.jpg" alt="MODEAPP" />
               <div class="text_content">
                 <h2 class="title">MODEAPP</h2>
-                <h3 class="category">Publicidad</h3>
+                <h3 class="category">Comunicación Corporativa</h3>
               </div>
             </div>
           </div>
@@ -194,7 +195,7 @@
               <img src="./img/producciones/18-omar_montes.jpg" alt="OMAR MONTES" />
               <div class="text_content">
                 <h2 class="title">OMAR MONTES</h2>
-                <h3 class="category">Artista</h3>
+                <h3 class="category">Videoclip</h3>
               </div>
             </div>
           </div>
@@ -223,7 +224,7 @@
               <img src="./img/producciones/21-real_madrid_club_de_futbol.jpg" alt="REAL MADRID CLUB DE FUTBOL" />
               <div class="text_content">
                 <h2 class="title">REAL MADRID CLUB DE FUTBOL</h2>
-                <h3 class="category">Promocional</h3>
+                <h3 class="category">Comunicación Corporativa</h3>
               </div>
             </div>
           </div>

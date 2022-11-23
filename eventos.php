@@ -28,20 +28,22 @@
           <!-- row 1 -->
           <div class="grid-item">
             <div class="img_content openImg">
-              <img src="./img/eventos/01-uefa_liga_campeones_ucl_paris.jpg" alt="UEFA CHAMPION LEAGE PARIS" />
+              <img src="./img/eventos/01-uefa_paris.jpg" alt="UEFA CHAMPION LEAGE PARIS" />
               <div class="text_content">
-                <h2 class="title">UEFA CHAMPION LEAGE PARIS</h2>
+                <h2 class="title">UEFA CHAMPION LEAGE - PARIS</h2>
                 <h3 class="category">Corporativo</h3>
               </div>
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/eventos/02-la_liga_portaventura.jpg" alt="LA LIGA - PORTAVENTURA" />
-              <div class="text_content">
-                <h2 class="title">LA LIGA - PORTAVENTURA</h2>
-                <h3 class="category">Corporativo</h3>
-              </div>
+            <div class="img_content">
+              <a href='./eventos/la-liga.php'>
+                <img src="./img/eventos/02-la_liga.jpg" alt="LA LIGA" />
+                <div class="text_content">
+                  <h2 class="title">LA LIGA</h2>
+                  <h3 class="category">Promocional</h3>
+                </div>
+              </a>
             </div>
           </div>
           <div class="grid-item">
@@ -58,7 +60,7 @@
               <img src="./img/eventos/04-tomorrowland.jpg" alt="TOMORROWLAND" />
               <div class="text_content">
                 <h2 class="title">TOMORROWLAND</h2>
-                <h3 class="category">Festivales</h3>
+                <h3 class="category">Festival</h3>
               </div>
             </div>
           </div>
@@ -75,18 +77,18 @@
           </div>
           <div class="grid-item">
             <div class="img_content openImg">
-              <img src="./img/eventos/06-spider_man_no_way_home.jpg" alt="SPIDER-MAN" />
+              <img src="./img/eventos/06-premieres_sony_callao.jpg" alt="Premieres Sony Callao" />
               <div class="text_content">
-                <h2 class="title">SPIDER-MAN</h2>
+                <h2 class="title">Premieres Sony Callao</h2>
                 <h3 class="category">Promocional</h3>
               </div>
             </div>
           </div>
           <div class="grid-item">
             <div class="img_content openImg">
-              <img src="./img/eventos/07-a_summer_story.jpg" alt="A SUMMER STORY" />
+              <img src="./img/eventos/07-mad_cool.jpg" alt="Mad Cool" />
               <div class="text_content">
-                <h2 class="title">A SUMMER STORY</h2>
+                <h2 class="title">Mad Cool</h2>
                 <h3 class="category">Festival</h3>
               </div>
             </div>
@@ -107,15 +109,15 @@
               <img src="./img/eventos/09-lola_indigo.jpg" alt="LOLA INDIGO" />
               <div class="text_content">
                 <h2 class="title">LOLA INDIGO</h2>
-                <h3 class="category">Concierto</h3>
+                <h3 class="category">Festival</h3>
               </div>
             </div>
           </div>
           <div class="grid-item">
             <div class="img_content openImg">
-              <img src="./img/eventos/10-premieres_sony_callao.jpg" alt="PREMIERES CALLAO" />
+              <img src="./img/eventos/10-spider_man_no_way_home.jpg" alt="Spider-Man - No way home" />
               <div class="text_content">
-                <h2 class="title">PREMIERES CALLAO<h2>
+                <h2 class="title">Spider-Man - No way home<h2>
                     <h3 class="category">Promocional</h3>
               </div>
             </div>
@@ -134,7 +136,7 @@
               <img src="./img/eventos/12-sofia_reyes.jpg" alt="SOFIA REYES" />
               <div class="text_content">
                 <h2 class="title">SOFIA REYES</h2>
-                <h3 class="category">Artista</h3>
+                <h3 class="category">Festival</h3>
               </div>
             </div>
           </div>
@@ -145,7 +147,7 @@
               <img src="./img/eventos/13-cocobongo.jpg" alt="COCOBONGO" />
               <div class="text_content">
                 <h2 class="title">COCOBONGO</h2>
-                <h3 class="category">Festival</h3>
+                <h3 class="category">Promocional</h3>
               </div>
             </div>
           </div>
@@ -160,10 +162,10 @@
           </div>
           <div class="grid-item">
             <div class="img_content openImg">
-              <img src="./img/eventos/15-mad_cool.jpg" alt="MAD COOL" />
+              <img src="./img/eventos/15-breitling.jpg" alt="Breitling" />
               <div class="text_content">
-                <h2 class="title">MAD COOL</h2>
-                <h3 class="category">Festival</h3>
+                <h2 class="title">Breitling</h2>
+                <h3 class="category">Promocional</h3>
               </div>
             </div>
           </div>
@@ -172,7 +174,7 @@
               <img src="./img/eventos/16-vive_ahora_veleros.jpg" alt="VIVE AHORA VELEROS" />
               <div class="text_content">
                 <h2 class="title">VIVE AHORA VELEROS</h2>
-                <h3 class="category">Viaje</h3>
+                <h3 class="category">Promocional</h3>
               </div>
             </div>
           </div>
@@ -198,26 +200,6 @@
           </div>
           <div class="grid-item">
             <div class="img_content openImg">
-              <img src="./img/eventos/19-breitling.jpg" alt="BREITLING" />
-              <div class="text_content">
-                <h2 class="title">BREITLING</h2>
-                <h3 class="category">Promocional</h3>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/eventos/20-uefa_liga_campeones_ucl_madrid.jpg" alt="UEFA CHAMPION LEAGE MADRID" />
-              <div class="text_content">
-                <h2 class="title">UEFA CHAMPION LEAGE MADRID</h2>
-                <h3 class="category">Corporativo</h3>
-              </div>
-            </div>
-          </div>
-
-          <!-- row 6 -->
-          <div class="grid-item">
-            <div class="img_content openImg">
               <img src="./img/eventos/21-unicef.jpg" alt="UNICEF" />
               <div class="text_content">
                 <h2 class="title">UNICEF</h2>
@@ -225,6 +207,18 @@
               </div>
             </div>
           </div>
+          <div class="grid-item">
+            <div class="img_content openImg">
+              <img src="./img/eventos/20-uefa_madrid.jpg" alt="UEFA CHAMPION LEAGE - MADRID" />
+              <div class="text_content">
+                <h2 class="title">UEFA CHAMPION LEAGE - MADRID</h2>
+                <h3 class="category">Corporativo</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- row 6 -->
+
         </div>
       </div>
     </section>
