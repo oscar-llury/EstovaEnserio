@@ -39,41 +39,49 @@
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/contenido-digital/02-bendita_burgers.jpg" alt="Bendita burgers" />
-              <div class="text_content">
-                <h2 class="title">Bendita burgers</h2>
-                <h3 class="category">Gastronomía</h3>
-              </div>
+            <div class="img_content">
+              <a href='./contenido-digital/bendita-burgers.php'>
+                <img src="./img/contenido-digital/02-bendita_burgers.jpg" alt="Bendita burgers" />
+                <div class="text_content">
+                  <h2 class="title">Bendita burgers</h2>
+                  <h3 class="category">Gastronomía</h3>
+                </div>
+              </a>
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/contenido-digital/03-ochobajocero.jpg" alt="OCHOBAJOCERO" />
-              <div class="text_content">
-                <h2 class="title">OCHOBAJOCERO</h2>
-                <h3 class="category">Viajes</h3>
-              </div>
+            <div class="img_content">
+              <a href='./contenido-digital/ochobajocero.php'>
+                <img src="./img/contenido-digital/03-ochobajocero.jpg" alt="OCHOBAJOCERO" />
+                <div class="text_content">
+                  <h2 class="title">OCHOBAJOCERO</h2>
+                  <h3 class="category">Viajes</h3>
+                </div>
+              </a>
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/contenido-digital/04-arnau_griso.jpg" alt="ARNAU GRISO" />
-              <div class="text_content">
-                <h2 class="title">ARNAU GRISO</h2>
-                <h3 class="category">Conciertos</h3>
-              </div>
+            <div class="img_content">
+              <a href='./contenido-digital/arnau-griso.php'>
+                <img src="./img/contenido-digital/04-arnau_griso.jpg" alt="ARNAU GRISO" />
+                <div class="text_content">
+                  <h2 class="title">ARNAU GRISO</h2>
+                  <h3 class="category">Conciertos</h3>
+                </div>
+              </a>
             </div>
           </div>
 
           <!-- row 2 -->
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/contenido-digital/05-grupo_lalala.jpg" alt="GRUPO LALALA" />
-              <div class="text_content">
-                <h2 class="title">GRUPO LALALA</h2>
-                <h3 class="category">Gastronomía</h3>
-              </div>
+            <div class="img_content">
+              <a href='./contenido-digital/grupo-lalala.php'>
+                <img src="./img/contenido-digital/05-grupo_lalala.jpg" alt="GRUPO LALALA" />
+                <div class="text_content">
+                  <h2 class="title">GRUPO LALALA</h2>
+                  <h3 class="category">Gastronomía</h3>
+                </div>
+              </a>
             </div>
           </div>
           <div class="grid-item">
@@ -86,12 +94,14 @@
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/contenido-digital/07-fyvar.jpg" alt="FYVAR" />
-              <div class="text_content">
-                <h2 class="title">FYVAR</h2>
-                <h3 class="category">Corporativo</h3>
-              </div>
+            <div class="img_content">
+              <a href='./contenido-digital/fyvar.php'>
+                <img src="./img/contenido-digital/07-fyvar.jpg" alt="FYVAR" />
+                <div class="text_content">
+                  <h2 class="title">FYVAR</h2>
+                  <h3 class="category">Corporativo</h3>
+                </div>
+              </a>
             </div>
           </div>
           <div class="grid-item">
@@ -115,30 +125,36 @@
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/contenido-digital/10-cefmx.jpg" alt="CEFMX FREESTYLE MOTOCROSS" />
-              <div class="text_content">
-                <h2 class="title">CEFMX FREESTYLE MOTOCROSS</h2>
-                <h3 class="category">Deportes</h3>
-              </div>
+            <div class="img_content">
+              <a href='./contenido-digital/cefmx-freestyle-motocross.php'>
+                <img src="./img/contenido-digital/10-cefmx.jpg" alt="CEFMX FREESTYLE MOTOCROSS" />
+                <div class="text_content">
+                  <h2 class="title">CEFMX FREESTYLE MOTOCROSS</h2>
+                  <h3 class="category">Deportes</h3>
+                </div>
+              </a>
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/contenido-digital/11-xcape.jpg" alt="XCAPE" />
-              <div class="text_content">
-                <h2 class="title">XCAPE</h2>
-                <h3 class="category">Viajes</h3>
-              </div>
+            <div class="img_content">
+              <a href='./contenido-digital/xcape.php'>
+                <img src="./img/contenido-digital/11-xcape.jpg" alt="XCAPE" />
+                <div class="text_content">
+                  <h2 class="title">XCAPE</h2>
+                  <h3 class="category">Viajes</h3>
+                </div>
+              </a>
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/contenido-digital/12-gala.jpg" alt="GALA" />
-              <div class="text_content">
-                <h2 class="title">GALA</h2>
-                <h3 class="category">Gastronomía</h3>
-              </div>
+            <div class="img_content">
+              <a href='./contenido-digital/gala.php'>
+                <img src="./img/contenido-digital/12-gala.jpg" alt="GALA" />
+                <div class="text_content">
+                  <h2 class="title">GALA</h2>
+                  <h3 class="category">Gastronomía</h3>
+                </div>
+              </a>
             </div>
           </div>
 
@@ -209,12 +225,14 @@
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/contenido-digital/20-tasty_poke.jpg" alt="TASTY POKE" />
-              <div class="text_content">
-                <h2 class="title">TASTY POKE</h2>
-                <h3 class="category"></h3>
-              </div>
+            <div class="img_content">
+              <a href='./contenido-digital/tasty-poke.php'>
+                <img src="./img/contenido-digital/20-tasty_poke.jpg" alt="TASTY POKE" />
+                <div class="text_content">
+                  <h2 class="title">TASTY POKE</h2>
+                  <h3 class="category"></h3>
+                </div>
+              </a>
             </div>
           </div>
         </div>
