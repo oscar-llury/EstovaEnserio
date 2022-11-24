@@ -47,12 +47,14 @@
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/eventos/03-desalia.jpg" alt="DESALIA" />
-              <div class="text_content">
-                <h2 class="title">DESALIA</h2>
-                <h3 class="category">Festival</h3>
-              </div>
+            <div class="img_content">
+              <a href='./eventos/desalia.php'>
+                <img src="./img/eventos/03-desalia.jpg" alt="DESALIA" />
+                <div class="text_content">
+                  <h2 class="title">DESALIA</h2>
+                  <h3 class="category">Festival</h3>
+                </div>
+              </a>
             </div>
           </div>
           <div class="grid-item">
@@ -67,39 +69,47 @@
 
           <!-- row 2 -->
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/eventos/05-ie.jpg" alt="IE" />
-              <div class="text_content">
-                <h2 class="title">IE</h2>
-                <h3 class="category">Corporativo</h3>
-              </div>
+            <div class="img_content">
+              <a href='./eventos/ie.php'>
+                <img src="./img/eventos/05-ie.jpg" alt="IE" />
+                <div class="text_content">
+                  <h2 class="title">IE</h2>
+                  <h3 class="category">Corporativo</h3>
+                </div>
+              </a>
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/eventos/06-premieres_sony_callao.jpg" alt="Premieres Sony Callao" />
-              <div class="text_content">
-                <h2 class="title">Premieres Sony Callao</h2>
-                <h3 class="category">Promocional</h3>
-              </div>
+            <div class="img_content">
+              <a href='./eventos/premieres-sony-callao.php'>
+                <img src="./img/eventos/06-premieres_sony_callao.jpg" alt="Premieres Sony Callao" />
+                <div class="text_content">
+                  <h2 class="title">Premieres Sony Callao</h2>
+                  <h3 class="category">Promocional</h3>
+                </div>
+              </a>
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/eventos/07-mad_cool.jpg" alt="Mad Cool" />
-              <div class="text_content">
-                <h2 class="title">Mad Cool</h2>
-                <h3 class="category">Festival</h3>
-              </div>
+            <div class="img_content">
+              <a href='./eventos/mad-cool.php'>
+                <img src="./img/eventos/07-mad_cool.jpg" alt="Mad Cool" />
+                <div class="text_content">
+                  <h2 class="title">Mad Cool</h2>
+                  <h3 class="category">Festival</h3>
+                </div>
+              </a>
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/eventos/08-south_summit.jpg" alt="SOUTH SUMMIT" />
-              <div class="text_content">
-                <h2 class="title">SOUTH SUMMIT</h2>
-                <h3 class="category">Corporativo</h3>
-              </div>
+            <div class="img_content">
+              <a href='./eventos/south-summit.php'>
+                <img src="./img/eventos/08-south_summit.jpg" alt="SOUTH SUMMIT" />
+                <div class="text_content">
+                  <h2 class="title">SOUTH SUMMIT</h2>
+                  <h3 class="category">Corporativo</h3>
+                </div>
+              </a>
             </div>
           </div>
 
@@ -152,12 +162,14 @@
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/eventos/14-budweiser.jpg" alt="BUDWEISER" />
-              <div class="text_content">
-                <h2 class="title">BUDWEISER</h2>
-                <h3 class="category">Promocional</h3>
-              </div>
+            <div class="img_content">
+              <a href='./eventos/budweiser.php'>
+                <img src="./img/eventos/14-budweiser.jpg" alt="BUDWEISER" />
+                <div class="text_content">
+                  <h2 class="title">BUDWEISER</h2>
+                  <h3 class="category">Promocional</h3>
+                </div>
+              </a>
             </div>
           </div>
           <div class="grid-item">
@@ -170,23 +182,27 @@
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/eventos/16-vive_ahora_veleros.jpg" alt="VIVE AHORA VELEROS" />
-              <div class="text_content">
-                <h2 class="title">VIVE AHORA VELEROS</h2>
-                <h3 class="category">Promocional</h3>
-              </div>
+            <div class="img_content">
+              <a href='./eventos/vive-ahora-veleros.php'>
+                <img src="./img/eventos/16-vive_ahora_veleros.jpg" alt="VIVE AHORA VELEROS" />
+                <div class="text_content">
+                  <h2 class="title">VIVE AHORA VELEROS</h2>
+                  <h3 class="category">Promocional</h3>
+                </div>
+              </a>
             </div>
           </div>
 
           <!-- row 5 -->
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/eventos/17-arenal_sound.jpg" alt="ARENAL SOUND" />
-              <div class="text_content">
-                <h2 class="title">ARENAL SOUND</h2>
-                <h3 class="category">Festival</h3>
-              </div>
+            <div class="img_content">
+              <a href='./eventos/arenal-sound.php'>
+                <img src="./img/eventos/17-arenal_sound.jpg" alt="ARENAL SOUND" />
+                <div class="text_content">
+                  <h2 class="title">ARENAL SOUND</h2>
+                  <h3 class="category">Festival</h3>
+                </div>
+              </a>
             </div>
           </div>
           <div class="grid-item">
@@ -199,21 +215,25 @@
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/eventos/19-unicef.jpg" alt="UNICEF" />
-              <div class="text_content">
-                <h2 class="title">UNICEF</h2>
-                <h3 class="category">Corporativo</h3>
-              </div>
+            <div class="img_content">
+              <a href='./eventos/unicef.php'>
+                <img src="./img/eventos/19-unicef.jpg" alt="UNICEF" />
+                <div class="text_content">
+                  <h2 class="title">UNICEF</h2>
+                  <h3 class="category">Corporativo</h3>
+                </div>
+              </a>
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/eventos/20-uefa_madrid.jpg" alt="UEFA CHAMPION LEAGE - MADRID" />
-              <div class="text_content">
-                <h2 class="title">UEFA CHAMPION LEAGE - MADRID</h2>
-                <h3 class="category">Corporativo</h3>
-              </div>
+            <div class="img_content">
+              <a href='./eventos/uefa-champions-leage-madrid.php'>
+                <img src="./img/eventos/20-uefa_madrid.jpg" alt="UEFA CHAMPION LEAGE - MADRID" />
+                <div class="text_content">
+                  <h2 class="title">UEFA CHAMPIONS LEAGE - MADRID</h2>
+                  <h3 class="category">Corporativo</h3>
+                </div>
+              </a>
             </div>
           </div>
 
