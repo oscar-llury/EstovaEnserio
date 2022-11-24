@@ -200,7 +200,7 @@
           </div>
           <div class="grid-item">
             <div class="img_content openImg">
-              <img src="./img/eventos/21-unicef.jpg" alt="UNICEF" />
+              <img src="./img/eventos/19-unicef.jpg" alt="UNICEF" />
               <div class="text_content">
                 <h2 class="title">UNICEF</h2>
                 <h3 class="category">Corporativo</h3>
