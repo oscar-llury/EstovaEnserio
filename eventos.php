@@ -84,15 +84,6 @@
           </div>
           <div class="grid-item">
             <div class="img_content openImg">
-              <img src="./img/eventos/07-a_summer_story.jpg" alt="A SUMMER STORY" />
-              <div class="text_content">
-                <h2 class="title">A SUMMER STORY</h2>
-                <h3 class="category">Festival</h3>
-              </div>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="img_content openImg">
               <img src="./img/eventos/08-south_summit.jpg" alt="SOUTH SUMMIT" />
               <div class="text_content">
                 <h2 class="title">SOUTH SUMMIT</h2>
