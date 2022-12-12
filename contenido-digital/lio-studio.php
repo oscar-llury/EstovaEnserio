@@ -19,6 +19,16 @@
   <!-- CSS Files -->
   <link href="/assets/css/enserio-styles.css" rel="stylesheet" />
 
+  <link rel="stylesheet" href="/node_modules/@splidejs/splide/dist/css/splide.min.css">
+  <style>
+    .splide img {
+      width: 100%;
+    }
+
+    .splide {
+      cursor: grab;
+    }
+  </style>
 </head>
 
 <body class="bg-gray-200 pagina-proyecto">
@@ -87,8 +97,26 @@
 
               <?php include_once('../includes/compartirProyecto.php'); ?>
             </div>
-            <div class="col-12 col-lg-8 col-md-7 order-first order-md-last pt-4">
-              <img src="/img/contenido-digital/01-lio_studio.jpg" alt="" class="w-100" />
+            <div class="col-12 col-md-7 col-lg-8 order-first order-md-last pt-4">
+              <img src="../img/contenido-digital/lio-studio/portada.jpg" alt="" class="w-100" />
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-12 position-relative">
+              <section class="splide" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide"><img src="https://swiperjs.com/demos/images/nature-1.jpg" /></li>
+                    <li class="splide__slide"><img src="https://swiperjs.com/demos/images/nature-2.jpg" /></li>
+                    <li class="splide__slide"><img src="https://swiperjs.com/demos/images/nature-3.jpg" /></li>
+                    <li class="splide__slide"><img src="https://swiperjs.com/demos/images/nature-4.jpg" /></li>
+                    <li class="splide__slide"><img src="https://swiperjs.com/demos/images/nature-5.jpg" /></li>
+                    <li class="splide__slide"><img src="https://swiperjs.com/demos/images/nature-6.jpg" /></li>
+                    <li class="splide__slide"><img src="https://swiperjs.com/demos/images/nature-7.jpg" /></li>
+                    <li class="splide__slide"><img src="https://swiperjs.com/demos/images/nature-8.jpg" /></li>
+                  </ul>
+                </div>
+              </section>
             </div>
           </div>
         </div>
@@ -98,6 +126,11 @@
   </div>
   <!-- Footer -->
   <?php include_once('../includes/footer.php'); ?>
+  <script src="https://player.vimeo.com/api/player.js"></script>
+
+  <script src="/node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
+
+  <script src="/assets/js/lio-studio.js"></script>
 
 </body>
 
