@@ -18,17 +18,7 @@
 
   <!-- CSS Files -->
   <link href="/assets/css/enserio-styles.css" rel="stylesheet" />
-
   <link rel="stylesheet" href="/node_modules/@splidejs/splide/dist/css/splide.min.css">
-  <style>
-    .splide img {
-      width: 100%;
-    }
-
-    .splide {
-      cursor: grab;
-    }
-  </style>
 </head>
 
 <body class="bg-gray-200 pagina-proyecto">
@@ -102,11 +92,15 @@
             </div>
           </div>
           <div class="row mt-5">
-            <div class="col-12 position-relative">
-              <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="col-12 position-relative slider-proyecto">
+              <section class="splide">
                 <div class="splide__track">
                   <ul class="splide__list">
-                    <li class="splide__slide"><img src="https://swiperjs.com/demos/images/nature-1.jpg" /></li>
+                    <li class="splide__slide">
+                      <div class="img_content openImg">
+                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" data-type='video' data-src='https://player.vimeo.com/video/762335307?h=a15be15709&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' title='Ver vídeo' alt='Lio Studio' />
+                      </div>
+                    </li>
                     <li class="splide__slide"><img src="https://swiperjs.com/demos/images/nature-2.jpg" /></li>
                     <li class="splide__slide"><img src="https://swiperjs.com/demos/images/nature-3.jpg" /></li>
                     <li class="splide__slide"><img src="https://swiperjs.com/demos/images/nature-4.jpg" /></li>
@@ -124,14 +118,11 @@
     </div>
     <!-- -------   END CONTENT 1 - title & description and 6 IMAGES   -------- -->
   </div>
+  <?php include_once('../includes/modal.php'); ?>
+
   <!-- Footer -->
   <?php include_once('../includes/footer.php'); ?>
-  <script src="https://player.vimeo.com/api/player.js"></script>
-
-  <script src="/node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
-
-  <script src="/assets/js/lio-studio.js"></script>
-
+  <?php include_once('../includes/project-js.php'); ?>
 </body>
 
 </html>

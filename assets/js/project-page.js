@@ -14,11 +14,19 @@ window.addEventListener("load", () => {
     interval: 2000,
     pauseOnHover: true,
     width: "auto",
+    breakpoints: {
+      767: {
+        perPage: 2,
+        arrows: false,
+      },
+      575: {
+        perPage: 1,
+      },
+    },
   });
   splide.mount();
 });
 
-document.addEventListener("DOMContentLoaded", function () {});
 /*function sendContactForm() {
   //const url = "https://jsonplaceholder.typicode.com/post";
   let formData = new FormData();
