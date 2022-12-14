@@ -5,7 +5,9 @@ $enable-negative-margins: true;
 
 // Customize some defaults
 $body-bg: rgb(240, 240, 240);
-$text-color: rgb(20, 20, 20);
+$text-color: #1b1b1d;
+$headings-color: $text-color;
+$h1-color: #fff;
 
 $primary: #d09729;
 $primary-light: #f1c875;
@@ -39,6 +41,9 @@ $link-hover-color: $primary-dark;
 $font-family-sans-serif: "Argentum Sans", Helvetica, Arial, sans-serif !default;
 $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-roboto-slab: "Argentum Sans", sans-serif !default;
+
+$headings-font-family: $font-family-sans-serif;
+$p-font-weight: 300;
 
 $border-width: 0px;
 

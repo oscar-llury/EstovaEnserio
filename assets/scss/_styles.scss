@@ -22,6 +22,10 @@ body {
 body.no-scoll-bar::-webkit-scrollbar {
   width: 0px; /* width of the entire scrollbar */
 }
+.p,
+p {
+  letter-spacing: 0.5px;
+}
 //custom selection text
 ::selection {
   background: $selection-bg !important;
@@ -221,6 +225,15 @@ body.no-scoll-bar::-webkit-scrollbar {
     .main-title {
       top: 50%;
       transform: translateY(-50%);
+      * {
+        color: $h1-color;
+      }
+    }
+  }
+  .col-main-image {
+    img {
+      max-height: 600px;
+      object-fit: contain;
     }
   }
   .col-info-proyecto {
@@ -234,9 +247,15 @@ body.no-scoll-bar::-webkit-scrollbar {
       margin-bottom: 20px;
     }
     .title-section {
-      font-size: 1.5em;
-      font-weight: 600;
-      margin: 0%;
+      letter-spacing: $letter-tighter;
+      font-weight: $font-weight-bold;
+      font-size: $h4-font-size;
+      line-height: $h4-line-height;
+      @include media-breakpoint-down(sm) {
+        font-size: rfs-fluid-value($h4-font-size);
+      }
+      color: $headings-color;
+      margin: 0;
     }
 
     .table-info-proyecto {
@@ -254,7 +273,20 @@ body.no-scoll-bar::-webkit-scrollbar {
     }
   }
 }
+.modal-video,
+.main-video {
+  width: 100%;
+  height: 100%;
+  position: relative;
 
+  .video-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
 /** IMAGES AT MODAL */
 .modal {
   display: none;
@@ -280,19 +312,6 @@ body.no-scoll-bar::-webkit-scrollbar {
     width: 100%;
     object-fit: contain;
   }
-  .modal-video {
-    width: 100%;
-    height: 100%;
-    position: relative;
-
-    .video-iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-  }
   .caption-modal {
     text-transform: uppercase;
     margin: auto;
@@ -308,7 +327,8 @@ body.no-scoll-bar::-webkit-scrollbar {
     background-color: transparent;
   }
   .modal-image,
-  .caption-modal {
+  .caption-modal,
+  .modal-video {
     -webkit-animation-name: zoom-modal;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom-modal;

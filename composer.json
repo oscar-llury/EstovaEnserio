@@ -25,6 +25,9 @@
   "autoload": {
     "psr-4": {
       "Enserio\\db\\": "backend/db"
-    }
+    },
+    "files": [
+      "includes/funcionesComunes.php"
+    ]
   }
 }

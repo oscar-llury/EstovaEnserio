@@ -10,7 +10,7 @@ for (let i = 0; i < imagesModal.length; i++) {
     if (img_node.isImage) {
       modalImg.src = img_node.data.src;
       modalImg.alt = img_node.data.alt;
-      captionText.innerHTML = img_node.alt;
+      captionText.innerHTML = img_node.data.alt;
       modalImg.classList.remove("d-none");
     } else {
       videoModal;
@@ -26,6 +26,8 @@ let modalClose = document.querySelector("#modalClose");
 modalClose.onclick = function () {
   modal.style.display = "none";
   modalImg.classList.add("d-none");
+  videoModal.classList.add("d-none");
+  videoModal.children[0].src = "";
 };
 
 function getImgNode(collection) {

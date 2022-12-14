@@ -1,8 +1,8 @@
 <header class="header position-sticky z-index-sticky top-0 blur">
     <div class="header navbar navbar-expand-lg shadow-none w-100 z-index-3">
         <div class="container">
-            <a class="navbar-brand p-0" href="/" rel="tooltip" title="EstovaEnserio" data-placement="bottom">
-                <img class='logo-header' src="/img/logo/ENSERIO.png" alt="" />
+            <a class="navbar-brand p-0" href="/" rel="tooltip" data-placement="bottom">
+                <img class='logo-header' src="/img/logo/logo-enserio-x200.png" alt="EstovaEnserio logotipo" title="EstovaEnserio" />
             </a>
             <button class="border-0 navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon mt-2">
@@ -16,7 +16,7 @@
                     <li class="nav-item dropdown dropdown-hover mx-2">
                         <a role="button" class="nav-link d-flex cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
                             Proyectos
-                            <img src=" /assets/img/down-arrow-dark.svg  " alt="down-arrow" class="arrow ms-2 d-lg-block" />
+                            <img src="/assets/img/down-arrow-dark.svg " alt="drop down arrow" class="arrow ms-2 d-lg-block" />
                         </a>
                         <div class="dropdown-menu dropdown-menu-end dropdown-menu-animation mt-0 mt-lg-3 p-3 rounded-0" aria-labelledby="dropdownMenuDocs">
                             <div class="d-none d-lg-block">

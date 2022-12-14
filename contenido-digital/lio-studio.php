@@ -2,22 +2,11 @@
 <html lang="es">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="icon" type="image/png" href="/img/logo/favicon.ico" />
-  <title>EstovaEnserio</title>
+  <title>EstovaEnserio - Lio Studio</title>
+  <meta name="description" content="Productora y agencia creativa de contenidos enfocada al desarrollo digital de las compañías.">
 
-  <!-- Nucleo Icons -->
-  <link href="/assets/css/nucleo-icons.css" rel="stylesheet" />
-  <link href="/assets/css/nucleo-svg.css" rel="stylesheet" />
+  <?php include_once('../includes/head.php'); ?>
 
-  <!-- Font Awesome Icons -->
-  <link href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" rel="stylesheet">
-  <link href="/node_modules/@fortawesome/fontawesome-free/css/brands.css" rel="stylesheet">
-  <link href="/node_modules/@fortawesome/fontawesome-free/css/solid.css" rel="stylesheet">
-
-  <!-- CSS Files -->
-  <link href="/assets/css/enserio-styles.css" rel="stylesheet" />
   <link rel="stylesheet" href="/node_modules/@splidejs/splide/dist/css/splide.min.css">
 </head>
 
@@ -30,15 +19,15 @@
       <div class="main-title position-absolute container-lg">
         <h1 class="ms-4 ms-lg-0 mb-0">Lio Studio</h1>
       </div>
-      <img src="/img/background-image-1.jpg" alt="" class="w-100 object-fit-cover" />
+      <img src="/img/background-image-1.jpg" alt="fondo encabezado contenido digital" class="w-100 object-fit-cover" />
     </div>
     <div class="container-fluid">
       <div class="main-container">
         <div class="pb-4 container-lg">
           <div class="row">
             <div class="col-12 col-md-5 col-lg-4 col-info-proyecto pt-4">
-              <h2 class="line-after">Lio Studio</h2>
-              <p>Creación de contenido digital más base de website para 710 studio desde sus inicios, con fotografía y vídeo para ecommerce y campañas de moda.</p>
+              <p class="line-after h2">Lio Studio</p>
+              <h2 class="p">Creación de contenido digital más base de website para 710 studio desde sus inicios, con fotografía y vídeo para ecommerce y campañas de moda.</h2>
               <div class="accordion my-4" id="accordionDescripcion">
                 <div class="accordion-item">
                   <div class="accordion-header" id="sinopsisHeader">
@@ -67,7 +56,7 @@
                   </div>
                 </div>
               </div>
-              <div class="title-section mt-4">Info</div>
+              <div class="title-section mt-4 mb-2">Info</div>
               <table class="table-info-proyecto">
                 <tbody>
                   <tr>
@@ -87,8 +76,8 @@
 
               <?php include_once('../includes/compartirProyecto.php'); ?>
             </div>
-            <div class="col-12 col-md-7 col-lg-8 order-first order-md-last pt-4">
-              <img src="../img/contenido-digital/lio-studio/portada.jpg" alt="" class="w-100" />
+            <div class="col-12 col-md-7 col-lg-8 order-first order-md-last pt-4 col-main-image">
+              <img src="../img/contenido-digital/lio-studio/portada.jpg" alt="710 STUDIO" title="710 STUDIO" class="w-100" />
             </div>
           </div>
           <div class="row mt-5">
@@ -98,16 +87,24 @@
                   <ul class="splide__list">
                     <li class="splide__slide">
                       <div class="img_content openImg">
-                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" data-type='video' data-src='https://player.vimeo.com/video/762335307?h=a15be15709&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' title='Ver vídeo' alt='Lio Studio' />
+                        <img src="../img/contenido-digital/lio-studio/portada.jpg" alt='710 STUDIO' title='Ver vídeo' data-type='video' data-src='https://player.vimeo.com/video/762335307?h=a15be15709&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
                       </div>
                     </li>
-                    <li class="splide__slide"><img src="https://swiperjs.com/demos/images/nature-2.jpg" /></li>
-                    <li class="splide__slide"><img src="https://swiperjs.com/demos/images/nature-3.jpg" /></li>
-                    <li class="splide__slide"><img src="https://swiperjs.com/demos/images/nature-4.jpg" /></li>
-                    <li class="splide__slide"><img src="https://swiperjs.com/demos/images/nature-5.jpg" /></li>
-                    <li class="splide__slide"><img src="https://swiperjs.com/demos/images/nature-6.jpg" /></li>
-                    <li class="splide__slide"><img src="https://swiperjs.com/demos/images/nature-7.jpg" /></li>
-                    <li class="splide__slide"><img src="https://swiperjs.com/demos/images/nature-8.jpg" /></li>
+                    <li class="splide__slide">
+                      <div class="img_content openImg">
+                        <img src="../img/contenido-digital/lio-studio/portada.jpg" alt='710 STUDIO' title='Ver vídeo' data-type='video' data-src='https://player.vimeo.com/video/762335198?h=7e22c300b2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="img_content openImg">
+                        <img src="../img/contenido-digital/lio-studio/portada.jpg" alt='710 STUDIO' title='Ver vídeo' data-type='video' data-src='https://player.vimeo.com/video/762335368?h=f3c5c4ffe8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="img_content openImg">
+                        <img src="../img/contenido-digital/lio-studio/portada.jpg" alt='710 STUDIO - MAKING OF' title='Ver vídeo' data-type='video' data-src='https://player.vimeo.com/video/762335410?h=511911d0d6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
+                      </div>
+                    </li>
                   </ul>
                 </div>
               </section>

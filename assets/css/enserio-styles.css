@@ -178,8 +178,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-heading-color: #344767;
-  --bs-link-color: rgb(20, 20, 20);
+  --bs-heading-color: #1b1b1d;
+  --bs-link-color: #1b1b1d;
   --bs-link-hover-color: #926711;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
@@ -221,6 +221,7 @@ hr {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  font-family: "Argentum Sans", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
   color: var(--bs-heading-color);
@@ -20095,7 +20096,7 @@ h6, .h6 {
 
 p, .p {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.6;
 }
 
@@ -31750,6 +31751,11 @@ body.no-scoll-bar::-webkit-scrollbar {
   width: 0px; /* width of the entire scrollbar */
 }
 
+.p,
+p {
+  letter-spacing: 0.5px;
+}
+
 ::-moz-selection {
   background: rgba(217, 255, 0, 0.568627451) !important;
   text-shadow: 2.5px 2px 2px #b1003e;
@@ -31964,6 +31970,14 @@ body.no-scoll-bar::-webkit-scrollbar {
   top: 50%;
   transform: translateY(-50%);
 }
+.pagina-proyecto .img-header .main-title * {
+  color: #fff;
+}
+.pagina-proyecto .col-main-image img {
+  max-height: 600px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 .pagina-proyecto .col-info-proyecto .line-after:after {
   content: "";
   display: block;
@@ -31974,9 +31988,17 @@ body.no-scoll-bar::-webkit-scrollbar {
   margin-bottom: 20px;
 }
 .pagina-proyecto .col-info-proyecto .title-section {
-  font-size: 1.5em;
-  font-weight: 600;
-  margin: 0%;
+  letter-spacing: -0.05rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.375;
+  color: #1b1b1d;
+  margin: 0;
+}
+@media (max-width: 575.98px) {
+  .pagina-proyecto .col-info-proyecto .title-section {
+    font-size: calc(1.275rem + 0.3vw);
+  }
 }
 .pagina-proyecto .col-info-proyecto .table-info-proyecto td:nth-child(1) {
   padding-right: 10px;
@@ -31987,6 +32009,21 @@ body.no-scoll-bar::-webkit-scrollbar {
 .pagina-proyecto .slider-proyecto .splide {
   cursor: -webkit-grab;
   cursor: grab;
+}
+
+.modal-video,
+.main-video {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.modal-video .video-iframe,
+.main-video .video-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /** IMAGES AT MODAL */
@@ -32016,18 +32053,6 @@ body.no-scoll-bar::-webkit-scrollbar {
   -o-object-fit: contain;
      object-fit: contain;
 }
-.modal .modal-video {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-.modal .modal-video .video-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 .modal .caption-modal {
   text-transform: uppercase;
   margin: auto;
@@ -32043,7 +32068,8 @@ body.no-scoll-bar::-webkit-scrollbar {
   background-color: transparent;
 }
 .modal .modal-image,
-.modal .caption-modal {
+.modal .caption-modal,
+.modal .modal-video {
   -webkit-animation-name: zoom-modal;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom-modal;

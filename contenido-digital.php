@@ -104,8 +104,8 @@
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/contenido-digital/08-sons_of_ibiza.jpg" alt="SONS OF IBIZA" />
+            <div class="img_content openImg" title='Ver vídeo'>
+              <img src="./img/contenido-digital/08-sons_of_ibiza.jpg" alt="SONS OF IBIZA" data-type='video' data-src='https://player.vimeo.com/video/762330585?h=6f40c66f90&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
               <div class="text_content">
                 <h2 class="title">SONS OF IBIZA</h2>
                 <h3 class="category">Viajes</h3>
@@ -159,8 +159,8 @@
 
           <!-- row 4 -->
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/contenido-digital/13-noemi_misma.jpg" alt="NOEMI MISMA" />
+            <div class="img_content openImg" title='Ver vídeo'>
+              <img src="./img/contenido-digital/13-noemi_misma.jpg" alt="NOEMI MISMA" data-type='video' data-src='https://player.vimeo.com/video/762325123?h=78e535d167&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
               <div class="text_content">
                 <h2 class="title">NOEMI MISMA</h2>
                 <h3 class="category">Artistas</h3>
@@ -186,8 +186,8 @@
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/contenido-digital/16-jorge_leon.jpg" alt="JORGE LEON" />
+            <div class="img_content openImg" title='Ver vídeo'>
+              <img src="./img/contenido-digital/16-jorge_leon.jpg" alt="JORGE LEON" data-type='video' data-src='https://player.vimeo.com/video/762324157?h=4b08ba4bf6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
               <div class="text_content">
                 <h2 class="title">JORGE LEON</h2>
                 <h3 class="category">Artistas</h3>
@@ -197,8 +197,8 @@
 
           <!-- row 5 -->
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/contenido-digital/17-gastronomia.jpg" alt="H SHOWCASE" />
+            <div class="img_content openImg" title='Ver vídeo'>
+              <img src="./img/contenido-digital/17-gastronomia.jpg" alt="Reel Gastronomía" data-type='video' data-src='https://player.vimeo.com/video/762322545?h=56e5ba2417&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
               <div class="text_content">
                 <h2 class="title">Reel Gastronomía</h2>
                 <h3 class="category">Gastronomía</h3>
@@ -215,8 +215,8 @@
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/contenido-digital/19-cuttoo.jpg" alt="CUTTOO" data-type='video' data-src='https://player.vimeo.com/video/762335307?h=a15be15709&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' title='Ver vídeo' />
+            <div class="img_content openImg" title='Ver vídeo'>
+              <img src="./img/contenido-digital/19-cuttoo.jpg" alt="CUTTOO" data-type='video' data-src='https://player.vimeo.com/video/762320883?h=4a6667e1a4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
               <div class="text_content">
                 <h2 class="title">CUTTOO</h2>
                 <h3 class="category">Artistas</h3>
