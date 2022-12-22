@@ -122,11 +122,11 @@
     </div>
     <!-- -------   END CONTENT 1 - title & description and 6 IMAGES   -------- -->
   </div>
-  <?php include_once('../includes/modal.php'); ?>
-
   <!-- Footer -->
   <?php include_once('../includes/footer.php'); ?>
   <?php include_once('../includes/project-js.php'); ?>
+
+  <?php include_once('../includes/modal.php'); ?>
 </body>
 
 </html>

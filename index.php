@@ -2,24 +2,16 @@
 <html lang="es">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="icon" type="image/png" href="./img/logo/favicon.ico" />
-  <title>EstovaEnserio</title>
+  <title>EstovaEnserio - Home</title>
+  <meta name="description" content="Productora y agencia creativa de contenidos enfocada al desarrollo digital de las compañías.">
 
-  <!-- Nucleo Icons -->
-  <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
-  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
-
-  <!-- CSS Files -->
-  <link href="./assets/css/enserio-styles.css" rel="stylesheet" />
-  <link href="./assets/css/project-gallery.css" rel="stylesheet" />
+  <?php include_once('./includes/head.php'); ?>
 </head>
 
 <body class="no-scoll-bar">
   <!-- Navbar -->
   <?php include_once('./includes/header.php'); ?>
-  <div class="shadow-blur pagina-home h-100 vh-min-100">
+  <div class="main-content shadow-blur pagina-home h-100 vh-min-100">
     <!-- -------   START CONTENT 1 -------- -->
     <div class="position-absolute start-50 top-50 big-container">
       <div class="d-flex align-items-center justify-content-center">

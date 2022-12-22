@@ -2,33 +2,26 @@
 <html lang="es">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="icon" type="image/png" href="./img/logo/favicon.ico" />
-  <title>EstovaEnserio</title>
+  <title>EstovaEnserio - Eventos</title>
+  <meta name="description" content="Productora y agencia creativa de contenidos enfocada al desarrollo digital de las compañías.">
 
-  <!-- Nucleo Icons -->
-  <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
-  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
-
-  <!-- CSS Files -->
-  <link href="./assets/css/enserio-styles.css" rel="stylesheet" />
-  <link href="./assets/css/project-gallery.css" rel="stylesheet" />
+  <?php include_once('./includes/head.php'); ?>
 </head>
 
 <body>
   <!-- Navbar -->
   <?php include_once('./includes/header.php'); ?>
-  <div class="blur shadow-blur pagina-listado-proyectos enserio-page">
+  <div class="main-content blur shadow-blur pagina-listado-proyectos enserio-page">
     <!-- -------   START CONTENT 1 -------- -->
     <section class="container-fluid">
+      <h1 class="text-center skip-content">Eventos</h1>
       <div class='main-container bg-gray-200'>
         <div class="grid">
           <div class="grid-sizer"></div>
           <!-- row 1 -->
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/eventos/01-uefa_paris.jpg" alt="UEFA CHAMPION LEAGE PARIS" />
+            <div class="img_content openImg" title='Ver vídeo'>
+              <img src="./img/eventos/01-uefa_paris.jpg" alt="UEFA CHAMPION LEAGE PARIS" data-type='video' data-src='https://player.vimeo.com/video/764192357?h=cd3125a8c2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
               <div class="text_content">
                 <h2 class="title">UEFA CHAMPION LEAGE - PARIS</h2>
                 <h3 class="category">Corporativo</h3>
@@ -236,34 +229,23 @@
               </a>
             </div>
           </div>
-
-          <!-- row 6 -->
-
         </div>
       </div>
     </section>
     <!-- -------   END CONTENT  -------- -->
   </div>
-
-  <!-- The Modal -->
-  <div id="myModal" class="modal z-index-modal">
-    <span class="close" id="modalClose">&times;</span>
-    <div class="modal-content">
-      <img class="modal-image" id="imgModal" alt="" />
-    </div>
-    <div id="captionModal" class="caption-modal"></div>
-  </div>
-
   <!-- Footer -->
   <?php include_once('./includes/footer.php'); ?>
 
+  <?php include_once('./includes/modal.php'); ?>
+
   <!--   Libraries JS Files   -->
-  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
-  <script src="./lib/masonry.pkgd.min.js" type="text/javascript"></script>
-  <script src="./lib/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+  <script src="/assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="/lib/masonry.pkgd.min.js" type="text/javascript"></script>
+  <script src="/lib/imagesloaded.pkgd.min.js" type="text/javascript"></script>
 
   <!--   JS Files   -->
-  <script src="./assets/js/project-gallery.js" type="text/javascript"></script>
+  <script src="/assets/js/project-gallery.js" type="text/javascript"></script>
 </body>
 
 </html>

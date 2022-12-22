@@ -1,3 +1,4 @@
+<a href='#main-content' class="skip-content">Skip to content</a>
 <header class="header position-sticky z-index-sticky top-0 blur">
     <div class="header navbar navbar-expand-lg shadow-none w-100 z-index-3">
         <div class="container">

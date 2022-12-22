@@ -15,6 +15,7 @@ window.addEventListener("load", () => {
     pauseOnHover: true,
     width: "auto",
     //heightRatio: 0.3,
+    //clones: 1,
     breakpoints: {
       767: {
         perPage: 2,

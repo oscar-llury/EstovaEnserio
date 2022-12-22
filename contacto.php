@@ -2,28 +2,16 @@
 <html lang="es">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="icon" type="image/png" href="./img/logo/favicon.ico" />
-    <title>EstovaEnserio</title>
+    <title>EstovaEnserio - Contacto</title>
+    <meta name="description" content="Productora y agencia creativa de contenidos enfocada al desarrollo digital de las compañías.">
 
-    <!-- Nucleo Icons -->
-    <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
-    <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
-
-    <!-- CSS Files -->
-    <link href="./assets/css/enserio-styles.css" rel="stylesheet" />
-    <link href="./assets/css/project-gallery.css" rel="stylesheet" />
-
-    <!-- Font Awesome -->
-    <!--<script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>-->
-
+    <?php include_once('./includes/head.php'); ?>
 </head>
 
 <body>
     <!-- Navbar -->
     <?php include_once('./includes/header.php'); ?>
-    <div class="blur shadow-blur pagina-contacto enserio-page min-vh-80">
+    <div class="main-content blur shadow-blur pagina-contacto enserio-page min-vh-80">
         <!-- -------   START CONTENT 1 -------- -->
         <section>
             <div class="vh-min-100">

@@ -78,7 +78,7 @@
             </div>
             <div class="col-12 col-md-7 col-lg-8 order-first order-md-last pt-4 col-main-image">
               <div class="main-video">
-                <iframe src=https://player.vimeo.com/video/762334262?h=7c1db79e98&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen class='video-iframe'></iframe>
+                <iframe src="https://player.vimeo.com/video/762334262?h=7c1db79e98&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen class='video-iframe'></iframe>
               </div>
             </div>
           </div>
@@ -122,11 +122,11 @@
     </div>
     <!-- -------   END CONTENT 1 - title & description and 6 IMAGES   -------- -->
   </div>
-  <?php include_once('../includes/modal.php'); ?>
-
   <!-- Footer -->
   <?php include_once('../includes/footer.php'); ?>
   <?php include_once('../includes/project-js.php'); ?>
+
+  <?php include_once('../includes/modal.php'); ?>
 </body>
 
 </html>

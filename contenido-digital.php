@@ -2,25 +2,19 @@
 <html lang="es">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="icon" type="image/png" href="/img/logo/favicon.ico" />
-  <title>EstovaEnserio</title>
+  <title>EstovaEnserio - Contenido digital</title>
+  <meta name="description" content="Productora y agencia creativa de contenidos enfocada al desarrollo digital de las compañías.">
 
-  <!-- Nucleo Icons -->
-  <link href="/assets/css/nucleo-icons.css" rel="stylesheet" />
-  <link href="/assets/css/nucleo-svg.css" rel="stylesheet" />
-
-  <!-- CSS Files -->
-  <link href="/assets/css/enserio-styles.css" rel="stylesheet" />
+  <?php include_once('./includes/head.php'); ?>
 </head>
 
 <body>
   <!-- Navbar -->
   <?php include_once('./includes/header.php'); ?>
-  <div class="blur shadow-blur pagina-listado-proyectos enserio-page">
+  <div class="main-content blur shadow-blur pagina-listado-proyectos enserio-page">
     <!-- -------   START CONTENT 1 -------- -->
     <section class="container-fluid">
+      <h1 class="text-center skip-content">Contenido digital</h1>
       <div class='main-container bg-gray-200'>
         <div class="grid">
           <div class="grid-sizer"></div>
@@ -124,25 +118,21 @@
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content">
-              <a href='./contenido-digital/cefmx-freestyle-motocross.php'>
-                <img src="./img/contenido-digital/10-cefmx.jpg" alt="CEFMX FREESTYLE MOTOCROSS" />
-                <div class="text_content">
-                  <h2 class="title">CEFMX FREESTYLE MOTOCROSS</h2>
-                  <h3 class="category">Eventos</h3>
-                </div>
-              </a>
+            <div class="img_content openImg" title='Ver vídeo'>
+              <img src="./img/contenido-digital/10-cefmx.jpg" alt="CEFMX FREESTYLE MOTOCROSS" data-type='video' data-src='https://player.vimeo.com/video/762329996?h=33a1fa6256&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
+              <div class="text_content">
+                <h2 class="title">CEFMX FREESTYLE MOTOCROSS</h2>
+                <h3 class="category">Eventos</h3>
+              </div>
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content">
-              <a href='./contenido-digital/xcape.php'>
-                <img src="./img/contenido-digital/11-xcape.jpg" alt="XCAPE" />
-                <div class="text_content">
-                  <h2 class="title">XCAPE</h2>
-                  <h3 class="category">Viajes</h3>
-                </div>
-              </a>
+            <div class="img_content openImg" title='Ver vídeo'>
+              <img src="./img/contenido-digital/11-xcape.jpg" alt="XCAPE" data-type='video' data-src='https://player.vimeo.com/video/762326892?h=6dc61ea4a4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
+              <div class="text_content">
+                <h2 class="title">XCAPE</h2>
+                <h3 class="category">Viajes</h3>
+              </div>
             </div>
           </div>
           <div class="grid-item">
@@ -239,10 +229,10 @@
     </section>
     <!-- -------   END CONTENT  -------- -->
   </div>
-  <?php include_once('./includes/modal.php'); ?>
-
   <!-- Footer -->
   <?php include_once('./includes/footer.php'); ?>
+
+  <?php include_once('./includes/modal.php'); ?>
 
   <!--   Libraries JS Files   -->
   <script src="/assets/js/core/popper.min.js" type="text/javascript"></script>
