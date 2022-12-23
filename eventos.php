@@ -26,7 +26,7 @@
         <div class="grid">
           <div class="grid-sizer"></div>
           <!-- row 1 -->
-          <div class="grid-item">
+          <!--<div class="grid-item">
             <div class="img_content openImg">
               <img src="./img/eventos/01-uefa_liga_campeones_ucl_paris.jpg" alt="UEFA CHAMPION LEAGE PARIS" />
               <div class="text_content">
@@ -34,7 +34,7 @@
                 <h3 class="category">Corporativo</h3>
               </div>
             </div>
-          </div>
+          </div>-->
           <div class="grid-item">
             <div class="img_content openImg">
               <img src="./img/eventos/02-la_liga_portaventura.jpg" alt="LA LIGA - PORTAVENTURA" />
@@ -196,7 +196,7 @@
               </div>
             </div>
           </div>
-          <div class="grid-item">
+          <!--<div class="grid-item">
             <div class="img_content openImg">
               <img src="./img/eventos/20-uefa_liga_campeones_ucl_madrid.jpg" alt="UEFA CHAMPION LEAGE MADRID" />
               <div class="text_content">
@@ -204,7 +204,7 @@
                 <h3 class="category">Corporativo</h3>
               </div>
             </div>
-          </div>
+          </div>-->
 
           <!-- row 6 -->
           <div class="grid-item">
