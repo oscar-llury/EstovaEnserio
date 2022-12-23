@@ -19,7 +19,7 @@
         <div class="grid">
           <div class="grid-sizer"></div>
           <!-- row 1 -->
-          <div class="grid-item">
+          <!--<div class="grid-item">
             <div class="img_content openImg" title='Ver vídeo'>
               <img src="./img/eventos/01-uefa_paris.jpg" alt="UEFA CHAMPION LEAGE PARIS" data-type='video' data-src='https://player.vimeo.com/video/764192357?h=cd3125a8c2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
               <div class="text_content">
@@ -27,7 +27,7 @@
                 <h3 class="category">Corporativo</h3>
               </div>
             </div>
-          </div>
+          </div>-->
           <div class="grid-item">
             <div class="img_content">
               <a href='./eventos/la-liga.php'>
@@ -117,8 +117,8 @@
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/eventos/10-spider_man_no_way_home.jpg" alt="Spider-Man - No way home" />
+            <div class="img_content openImg" title='Ver vídeo'>
+              <img src="./img/eventos/10-spider_man_no_way_home.jpg" alt="Spider-Man - No way home" data-type='video' data-src='https://player.vimeo.com/video/764555916?h=53ae4467cb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
               <div class="text_content">
                 <h2 class="title">Spider-Man - No way home<h2>
                     <h3 class="category">Promocional</h3>
@@ -166,8 +166,8 @@
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content openImg">
-              <img src="./img/eventos/15-breitling.jpg" alt="Breitling" />
+            <div class="img_content openImg" title='Ver vídeo'>
+              <img src="./img/eventos/15-breitling.jpg" alt="Breitling" data-type='video' data-src='https://player.vimeo.com/video/764624797?h=266fe70bbe&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
               <div class="text_content">
                 <h2 class="title">Breitling</h2>
                 <h3 class="category">Promocional</h3>
@@ -208,17 +208,15 @@
             </div>
           </div>
           <div class="grid-item">
-            <div class="img_content">
-              <a href='./eventos/unicef.php'>
-                <img src="./img/eventos/19-unicef.jpg" alt="UNICEF" />
-                <div class="text_content">
-                  <h2 class="title">UNICEF</h2>
-                  <h3 class="category">Corporativo</h3>
-                </div>
-              </a>
+            <div class="img_content openImg">
+              <img src="./img/eventos/19-unicef.jpg" alt="UNICEF" />
+              <div class="text_content">
+                <h2 class="title">UNICEF</h2>
+                <h3 class="category">Corporativo</h3>
+              </div>
             </div>
           </div>
-          <div class="grid-item">
+          <!--<div class="grid-item">
             <div class="img_content">
               <a href='./eventos/uefa-champions-leage-madrid.php'>
                 <img src="./img/eventos/20-uefa_madrid.jpg" alt="UEFA CHAMPION LEAGE - MADRID" />
@@ -228,7 +226,7 @@
                 </div>
               </a>
             </div>
-          </div>
+          </div>-->
         </div>
       </div>
     </section>
