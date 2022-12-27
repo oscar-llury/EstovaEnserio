@@ -7423,12 +7423,14 @@ textarea.form-control-lg {
 }
 
 .sticky-top {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1020;
 }
 
 .sticky-bottom {
+  position: -webkit-sticky;
   position: sticky;
   bottom: 0;
   z-index: 1020;
@@ -7436,11 +7438,13 @@ textarea.form-control-lg {
 
 @media (min-width: 576px) {
   .sticky-sm-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
   }
   .sticky-sm-bottom {
+    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     z-index: 1020;
@@ -7448,11 +7452,13 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) {
   .sticky-md-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
   }
   .sticky-md-bottom {
+    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     z-index: 1020;
@@ -7460,11 +7466,13 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .sticky-lg-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
   }
   .sticky-lg-bottom {
+    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     z-index: 1020;
@@ -7472,11 +7480,13 @@ textarea.form-control-lg {
 }
 @media (min-width: 1200px) {
   .sticky-xl-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
   }
   .sticky-xl-bottom {
+    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     z-index: 1020;
@@ -7484,11 +7494,13 @@ textarea.form-control-lg {
 }
 @media (min-width: 1400px) {
   .sticky-xxl-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
   }
   .sticky-xxl-bottom {
+    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     z-index: 1020;
@@ -7719,6 +7731,7 @@ textarea.form-control-lg {
 }
 
 .position-sticky {
+  position: -webkit-sticky !important;
   position: sticky !important;
 }
 
@@ -25175,6 +25188,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 .fc .fc-scrollgrid-section-sticky > * {
   background: #fff;
   background: var(--fc-page-bg-color, #fff);
+  position: -webkit-sticky;
   position: sticky;
   z-index: 2; /* TODO: var */
   /* TODO: box-shadow when sticking */
@@ -25195,6 +25209,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 }
 
 .fc-sticky { /* no .fc wrap because used as child of body */
+  position: -webkit-sticky;
   position: sticky;
 }
 
@@ -26217,6 +26232,7 @@ A VERTICAL event
 }
 
 .fc .fc-list-sticky .fc-list-day > * { /* the cells */
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   background: #fff;
@@ -31908,36 +31924,140 @@ p {
 }
 
 /** ---- HOME ---- */
-.pagina-home .big-container {
-  transform: translate(-50%, -50%);
-}
-.pagina-home .title {
+.pagina-home .big-container .title {
   font-size: 20rem;
 }
 @media (max-width: 1200px) {
-  .pagina-home .title {
+  .pagina-home .big-container .title {
     font-size: 16rem;
   }
 }
 @media (max-width: 992px) {
-  .pagina-home .title {
+  .pagina-home .big-container .title {
     font-size: 12rem;
   }
 }
 @media (max-width: 768px) {
-  .pagina-home .title {
+  .pagina-home .big-container .title {
     font-size: 10rem;
   }
 }
 @media (max-width: 576px) {
-  .pagina-home .title {
+  .pagina-home .big-container .title {
     font-size: 5rem;
   }
 }
 @media (max-width: 360px) {
-  .pagina-home .title {
+  .pagina-home .big-container .title {
     font-size: 3rem;
   }
+}
+.pagina-home .enserio-projects-canvas {
+  position: relative;
+  max-width: none;
+  min-height: 100%;
+  margin-top: 42px;
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  transform: none;
+}
+.pagina-home .enserio-projects-canvas .collection-list-wrapper-project {
+  width: 100%;
+}
+.pagina-home .enserio-projects-canvas .collection-list-wrapper-project .collection-list-project {
+  position: relative;
+  display: flex;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+.pagina-home .enserio-projects-canvas .collection-list-wrapper-project .collection-list-project .collection-item-project {
+  display: flex;
+  width: 33.3333%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #949494;
+  border-left: 1px solid #949494;
+  transition: background-color 2s;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.pagina-home .enserio-projects-canvas .collection-list-wrapper-project .collection-list-project .collection-item-project .projects-grid-wrapper {
+  display: flex;
+  min-height: 50vh;
+  padding-top: 52px;
+  padding-bottom: 52px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: stretch;
+  transition: 1s;
+  text-align: center;
+  text-decoration: none;
+}
+.pagina-home .enserio-projects-canvas .collection-list-wrapper-project .collection-list-project .collection-item-project .projects-grid-wrapper .title {
+  margin-top: 0;
+  margin-bottom: 0.8em;
+  line-height: 36px;
+  font-weight: 600;
+  transition: 0.5s;
+  color: #f2f2f2;
+}
+.pagina-home .enserio-projects-canvas .collection-list-wrapper-project .collection-list-project .collection-item-project .main-img-project {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 2s;
+}
+.pagina-home .enserio-projects-canvas .collection-list-wrapper-project .collection-list-project .collection-item-project:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border-right-color: #d09729;
+  border-left-color: #d09729;
+  box-shadow: inset 1px 1px 60px 0 #d09729;
+}
+.pagina-home .enserio-projects-canvas .collection-list-wrapper-project .collection-list-project .collection-item-project:hover .main-img-project {
+  opacity: 1;
+}
+.pagina-home .enserio-projects-canvas .collection-list-wrapper-project .collection-list-project .collection-item-project:hover .title {
+  color: #d09729;
+}
+.pagina-home .enserio-projects-canvas .background-video-projects {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+  width: 100vw;
+  height: 100%;
+  flex: 0 auto;
+  cursor: pointer;
+}
+.pagina-home .enserio-projects-canvas .background-video-projects > video {
+  background-size: cover;
+  background-position: 50% 50%;
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  right: -100%;
+  bottom: -100%;
+  top: -100%;
+  left: -100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -100;
 }
 
 /** ---- LISTADO PROYECTOS ---- */
