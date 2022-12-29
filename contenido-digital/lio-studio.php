@@ -102,7 +102,7 @@
                     </li>
                     <li class="splide__slide">
                       <div class="img_content openImg">
-                        <img src="../img/contenido-digital/lio-studio/portada.jpg" alt='710 STUDIO - MAKING OF' title='Ver vídeo' data-type='video' data-src='https://player.vimeo.com/video/762335410?h=511911d0d6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
+                        <img src="../img/contenido-digital/lio-studio/portada.jpg" alt='710 STUDIO - MAKING OF' title='Ver vídeo' data-type='video' data-class='min-vw-75' data-src='https://player.vimeo.com/video/762335410?h=511911d0d6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
                       </div>
                     </li>
                   </ul>

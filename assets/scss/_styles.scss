@@ -7,6 +7,7 @@ html {
   overflow-y: scroll;
 }
 body {
+  padding: 0 !important;
   --logo-header-height: 75px;
   --offset-top: -3rem;
   --header-height: 91px;
@@ -116,20 +117,6 @@ p {
   .category {
     font-size: 1.2em;
     text-align: center;
-  }
-}
-.modal-video,
-.main-video {
-  width: 100%;
-  height: 100%;
-  position: relative;
-
-  .video-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
   }
 }
 .enserio-page {
@@ -411,6 +398,7 @@ p {
       transform: translateY(-50%);
       * {
         color: $h1-color;
+        text-transform: uppercase;
       }
     }
   }
@@ -419,8 +407,25 @@ p {
       max-height: 600px;
       object-fit: contain;
     }
+    .main-video {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      .video-iframe {
+        //position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90vh;
+        max-height: 700px;
+        min-height: 300px;
+      }
+    }
   }
   .col-info-proyecto {
+    .h2 {
+      text-transform: uppercase;
+    }
     .line-after:after {
       content: "";
       display: block;
@@ -462,9 +467,9 @@ p {
 .modal {
   display: none;
   position: fixed;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-left: 75px;
-  padding-right: 75px;
+  padding-right: 75px !important;
   left: 0;
   top: 0;
   width: 100%;
@@ -472,16 +477,33 @@ p {
   overflow: auto;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.9);
-
-  .modal-content {
-    max-height: 80%;
+  .modal-dialog {
+    height: 100%;
+    max-height: 90%;
+    margin: auto;
+    max-width: 100%;
+  }
+  .enserio-modal-content {
     width: 100%;
     height: 100%;
+    box-shadow: none;
+    text-align: center;
   }
   .modal-image {
     height: 100%;
-    width: 100%;
+    width: auto;
     object-fit: contain;
+    pointer-events: auto;
+  }
+  .modal-video {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    .video-iframe {
+      width: auto;
+      height: 100%;
+      pointer-events: auto;
+    }
   }
   .caption-modal {
     text-transform: uppercase;

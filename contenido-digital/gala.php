@@ -92,7 +92,7 @@
                     </li>
                     <li class="splide__slide">
                       <div class="img_content openImg">
-                        <img src="../img/contenido-digital/gala/02-MKG6973.jpg" alt='GALA' title='Ver vídeo' data-type='video' data-src='https://player.vimeo.com/video/762325683?h=04e13c64ab&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
+                        <img src="../img/contenido-digital/gala/02-MKG6973.jpg" alt='GALA' title='Ver vídeo' data-type='video' data-class='min-vw-75' data-src='https://player.vimeo.com/video/762325683?h=04e13c64ab&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
                       </div>
                     </li>
                     <li class="splide__slide">

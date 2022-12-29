@@ -7971,8 +7971,36 @@ textarea.form-control-lg {
   width: 100vw !important;
 }
 
+.min-vw-25 {
+  min-width: 25% !important;
+}
+
+.min-vw-50 {
+  min-width: 50% !important;
+}
+
+.min-vw-75 {
+  min-width: 75% !important;
+}
+
+.min-vw-85 {
+  min-width: 85% !important;
+}
+
 .min-vw-100 {
-  min-width: 100vw !important;
+  min-width: 100% !important;
+}
+
+.min-vw-125 {
+  min-width: 125% !important;
+}
+
+.min-vw-150 {
+  min-width: 150% !important;
+}
+
+.min-vw-auto {
+  min-width: auto !important;
 }
 
 .h-25 {
@@ -31750,6 +31778,7 @@ html {
 }
 
 body {
+  padding: 0 !important;
   --logo-header-height: 75px;
   --offset-top: -3rem;
   --header-height: 91px;
@@ -31879,21 +31908,6 @@ p {
 .text_content .category {
   font-size: 1.2em;
   text-align: center;
-}
-
-.modal-video,
-.main-video {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-.modal-video .video-iframe,
-.main-video .video-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 .enserio-page {
@@ -32110,11 +32124,28 @@ p {
 }
 .pagina-proyecto .img-header .main-title * {
   color: #fff;
+  text-transform: uppercase;
 }
 .pagina-proyecto .col-main-image img {
   max-height: 600px;
   -o-object-fit: contain;
      object-fit: contain;
+}
+.pagina-proyecto .col-main-image .main-video {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.pagina-proyecto .col-main-image .main-video .video-iframe {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90vh;
+  max-height: 700px;
+  min-height: 300px;
+}
+.pagina-proyecto .col-info-proyecto .h2 {
+  text-transform: uppercase;
 }
 .pagina-proyecto .col-info-proyecto .line-after:after {
   content: "";
@@ -32153,9 +32184,9 @@ p {
 .modal {
   display: none;
   position: fixed;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-left: 75px;
-  padding-right: 75px;
+  padding-right: 75px !important;
   left: 0;
   top: 0;
   width: 100%;
@@ -32165,16 +32196,34 @@ p {
   background-color: rgba(0, 0, 0, 0.9);
   /* The Close Button */
 }
-.modal .modal-content {
-  max-height: 80%;
+.modal .modal-dialog {
+  height: 100%;
+  max-height: 90%;
+  margin: auto;
+  max-width: 100%;
+}
+.modal .enserio-modal-content {
   width: 100%;
   height: 100%;
+  box-shadow: none;
+  text-align: center;
 }
 .modal .modal-image {
   height: 100%;
-  width: 100%;
+  width: auto;
   -o-object-fit: contain;
      object-fit: contain;
+  pointer-events: auto;
+}
+.modal .modal-video {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.modal .modal-video .video-iframe {
+  width: auto;
+  height: 100%;
+  pointer-events: auto;
 }
 .modal .caption-modal {
   text-transform: uppercase;

@@ -89,7 +89,7 @@
                   <ul class="splide__list">
                     <li class="splide__slide">
                       <div class="img_content openImg">
-                        <img src="../img/contenido-digital/grupo-lalala/04-DSC04523.jpg" alt='LA MAMONA DE CHAMBERÍ' title='Ver vídeo' data-type='video' data-src='https://player.vimeo.com/video/762331175?h=e35cdcc514&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
+                        <img src="../img/contenido-digital/grupo-lalala/04-DSC04523.jpg" alt='LA MAMONA DE CHAMBERÍ' title='Ver vídeo' data-type='video' data-class='min-vw-75' data-src='https://player.vimeo.com/video/762331175?h=e35cdcc514&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479' />
                       </div>
                     </li>
                     <li class="splide__slide">
