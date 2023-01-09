@@ -128,7 +128,7 @@
           </div>
           <div class="grid-item">
             <div class="img_content openImg">
-              <img src="./img/producciones/11-prosegur.jpg" alt="PROSEGUR" />
+              <img src="./img/producciones/12-prosegur.jpg" alt="PROSEGUR" />
               <div class="text_content">
                 <h2 class="title">PROSEGUR</h2>
                 <h3 class="category">Comunicación Corporativa</h3>

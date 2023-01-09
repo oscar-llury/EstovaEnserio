@@ -1,9 +1,10 @@
 <a href='#main-content' class="skip-content">Skip to content</a>
-<header class="header position-sticky z-index-sticky top-0 blur">
-    <div class="header navbar navbar-expand-lg shadow-none w-100 z-index-3">
+<header class="header position-relative z-index-sticky top-0 blur">
+    <div class="navbar navbar-expand-lg shadow-none w-100 z-index-3">
         <div class="container">
             <a class="navbar-brand p-0" href="/" rel="tooltip" data-placement="bottom">
-                <img class='logo-header' src="/img/logo/logo-enserio-x200.png" alt="EstovaEnserio logotipo" title="EstovaEnserio" />
+                <img class='logo-header top' src="/img/logo/logo-enserio-x200.png" alt="EstovaEnserio logotipo" title="EstovaEnserio" />
+                <img class='logo-header scrolled d-none' src="/img/logo/logo-cabeza-x300.png" alt="EstovaEnserio logotipo" title="EstovaEnserio" />
             </a>
             <button class="border-0 navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon mt-2">
